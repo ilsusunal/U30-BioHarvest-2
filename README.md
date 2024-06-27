@@ -14,30 +14,29 @@ Takım 30
 
 ## Ürün İsmi
 
---Movie App--
+Bio Harvest
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+- BioHarvest bir macera ve bulmaca oyunudur. #adventure #3dplatformer #puzzle. 
 
 ## Ürün Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+- Mekanikler :
+- Benzersiz özellikler :
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+- Profil 1 :
+- Profil 2 :
+- Profil 3 :
+- Profil 4 :
+- Profil 5 :
 
 ## Product Backlog URL
 
 [Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+- **Puanlamalar**:
 
 ---
 
