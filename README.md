@@ -35,7 +35,7 @@ Bio Harvest
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+https://app.milanote.com/1Sk0sa1J9xg002?p=uwuWZBajo1X
 - **Puanlamalar**:
 
 ---
@@ -60,8 +60,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+![WhatsApp Görsel 2024-06-28 saat 20 14 44_51af6004](https://github.com/ilsusunal/U30-BioHarvest-2/assets/78484440/b8c62818-fe1f-4de1-8a8a-2f37acb5b611)
 
 - **Sprint Review**: 
 Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
