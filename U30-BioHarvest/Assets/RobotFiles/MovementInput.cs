@@ -61,7 +61,8 @@ public class MovementInput : MonoBehaviour {
         }
         moveVector = new Vector3(0, verticalVel * .2f * Time.deltaTime, 0);
         controller.Move(moveVector);
-        deneme();
+        Jumping();
+		Running();
     }
 
     void PlayerMoveAndRotation() {
@@ -85,7 +86,7 @@ public class MovementInput : MonoBehaviour {
             controller.Move(desiredMoveDirection * Time.deltaTime * Velocity);
 		}
 	}
-	void deneme()
+	void Jumping()
 	{
 		if(Input.GetKeyDown(KeyCode.Space))
 		{
@@ -94,6 +95,17 @@ public class MovementInput : MonoBehaviour {
 		else
 		{
             anim.SetBool("isjump", false);
+        }
+	}
+	void Running()
+	{
+		if (Input.GetKey(KeyCode.LeftShift))
+		{
+            Velocity = 20f;
+        }
+		else
+		{
+			Velocity = 10f;
         }
 	}
     public void LookAt(Vector3 pos)
