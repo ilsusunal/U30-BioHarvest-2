@@ -1,10 +1,10 @@
 # **Takım İsmi**
 
-Takım 30
+T30
 
 # Ürün İle İlgili Bilgiler
 
-## Takım Elemanları
+## Takım Üyeleri
 
 - İbrahim Safa Uysal : Product Owner
 - Hilal Korkusuz: Scrum Master
@@ -18,57 +18,73 @@ Bio Harvest
 
 ## Ürün Açıklaması
 
-- BioHarvest bir macera ve bulmaca oyunudur. #adventure #3dplatformer #puzzle. 
+- BioHarvest bir macera ve bulmaca oyunudur. 
+- Küresel ısınmanın etkisiyle dünya bir çöl gezegenine dönmüş ve yaşanamaz hale gelmiştir. İnsanlar, gezegeni tamamen terk etmeden önce, Dünya'yı eski haline döndürme umuduyla birçok robotu programlar ve geride bırakırlar. Yıllar sonra, robotların çoğu bozulmuş ve görevlerini tamamlayamamıştır. Fakat umutsuzluğa yer yok, çünkü hayatta kalan tek robot olan Astra var!
+Robot Astra ile farklı gezegenleri keşfedin, çeşitli zorlukları ve bulmacaları çözün ve Dünya’ya tekrar yaşamı getirin. #adventure #3dplatformer #puzzle.
 
 ## Ürün Özellikleri
 
 - Mekanikler :
+  -	Bulmacaları çözerek kaynak toplama
+  -	Mini map sayesinde haritadaki konumunuzu görme
+  -	Third person bakış açısı
+  
 - Benzersiz özellikler :
+  -	Farklı gezegenleri keşfedin.
+  -	Kendi gezegeni için farklı gezegenlerden öge toplayıp o gezegeni yok etme. Böylece Oyuncular etik bir dilemma ile karşılaşacaklar.
 
 ## Hedef Kitle
+BioHarvest; keşfe meraklı, zorlu bulmacaları çözmeyi seven, 7 yaş üstü, PC oyuncusu olan herkese hitap ediyor!
 
-- Profil 1 :
-- Profil 2 :
-- Profil 3 :
-- Profil 4 :
-- Profil 5 :
+Profil 1 [Ayşe]: Hikaye odaklı oyunları seven, gizemleri çözmeyi ve sürükleyici anlatımları takdir eden oyuncu.
+Profil 3 [Mehmet]: Zorlu bulmacaları çözmekten zevk alan, mantık ve strateji gerektiren oyunları seven 18 yaşında oyuncu.
+Profil 3 [Zeynep]: Çevresel faktörlerle etkileşime sahip oyunları seven, gezegenleri koruma ve yenileme temalarına ilgi duyan oyuncu.
+Profil 4 [Ali]: Ailesinin çevre bilinci aşılamak istediği 8 yaşında bilgisayar oyunlarını seven bir çocuk.
+Profil 5 [Ece]: 
 
 ## Product Backlog URL
 
 https://app.milanote.com/1Sk0sa1J9xg002?p=uwuWZBajo1X
-- **Puanlamalar**:
-
 ---
 
 # Sprint 1
 
-- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+- **Sprint içinde tamamlanması tahmin edilen puan**: 130 Puan
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 390 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 130 ile başlaması gerektiğine karar verildi. Ayrıca yapacağımız işlere puan atarken şekil1'degörülen tabloyu kullandık.
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+-Yapılacak, yapılan ve bitmiş işler Canban tekniği kullanılarak github'dan kontrol edilmiştir.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg formatında Readme'de tarafımızdan paylaşılmaktadır.
+- ![image](https://github.com/ilsusunal/U30-BioHarvest-2/assets/78484440/6f17ff9a-abcf-414e-81fc-ea9822fa674d)
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+- **Haftalık Toplantıdan Görsel**:
+- 
+- **Haftalık Toplantıdan Görsel**:
+-!![toplatıss](https://github.com/ilsusunal/U30-BioHarvest-2/assets/78484440/e2d74699-99fc-498d-ad19-55ec856a957a)
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
-
-- **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
+- **Sprint board update**: Sprint board screenshotları:
+![Backlog 1](https://cdn.discordapp.com/attachments/1251258360012210197/1255575155329994762/InitialPointtoHourEstimate.jpg?ex=668a273c&is=6688d5bc&hm=85ec6a103f8e8bcc711d9af870b1a5c444c017506d8cf59479491882d2aad5e7&)
+![Backlog 2](https://cdn.discordapp.com/attachments/1251258360012210197/1259186646113321083/image.png?ex=668ac472&is=668972f2&hm=0e61ef1e48440c4c4fe2a1f25711f93eea4689a7e8ce598d51593e78d8f33257&)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-![WhatsApp Görsel 2024-06-28 saat 20 14 44_51af6004](https://github.com/ilsusunal/U30-BioHarvest-2/assets/78484440/b8c62818-fe1f-4de1-8a8a-2f37acb5b611)
+![1](https://github.com/ilsusunal/ilsusunal/assets/148697098/220082af-7eed-4491-a2ef-8c47c8876832)
+![water](https://github.com/ilsusunal/ilsusunal/assets/148697098/6c38aea4-27b8-4ea3-bfb6-a617841b5ed6)
+![jungle](https://github.com/ilsusunal/ilsusunal/assets/148697098/d99fd26e-68c5-42a0-9dfc-adb992a197cb)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+- Alınan kararlar: Haftada iki toplantı yapılmasına karar verildi. Bu toplantılarda herkes ne yaptığını ve projenin durumu konuşuldu.
+- 3D platform puzle oyunu yapılmasına karar verildi. İlk iki mapin çevre tasarımı bitirildi.
+- İlk sprintte başlangıç ekranın tasarlanmasına karar verildi. Ve gerçeklştirildi.
+- Proje'de Unity  2022.3.34f1 sürümünde URP olarak oluşturuldu.
+
+Sprint Review katılımcıları: Herkes
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Karakterin hareket animasyonları ve mekanikleri eklenmiştir.
+  - Map üzerindeki platformlara mekanikler eklenmiştir.
+  - Puanlama sisteminin iyileştirilmesine karar verildi.
+  - Yeni mekaniklere karar verilecek.
 
 -**Diğer Notlar**:
 - N/A
