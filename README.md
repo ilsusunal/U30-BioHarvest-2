@@ -54,6 +54,8 @@ https://app.milanote.com/1Sk0sa1J9xg002/takm-30-bootcamp?p=xnCX4jrYYGU
 
 # Sprint 1
 
+- **Sprint Notları**: İlk sprintte hareket kodlarının minimap ve can sisteminin bitmesi hedeflendi. Fakat yetişmediği için ikinci sprinte aktarıldı.
+
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 390 puanlık backlog bulunmaktadır. 390 puan, 4 sprint'e bölündüğünde ilk sprint 130 puanlık görevin bitirilmesine karar verildi. Yapılacak işlere puan atarken aşağıdaki tablo kullanıldı.
 ![Backlog 1](https://cdn.discordapp.com/attachments/1251258360012210197/1255575155329994762/InitialPointtoHourEstimate.jpg?ex=668a273c&is=6688d5bc&hm=85ec6a103f8e8bcc711d9af870b1a5c444c017506d8cf59479491882d2aad5e7&)
 
