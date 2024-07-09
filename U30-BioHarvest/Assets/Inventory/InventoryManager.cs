@@ -89,7 +89,12 @@ public class InventoryManager : MonoBehaviour
                     UseItem(itemToUse);
             }
         }
+        if(Input.GetKeyUp(KeyCode.E))
+        {
+            OnOfInventory();
+        }
     }
+
     public void OnOfInventory() //açýksa kapat kapalýysa aç fonksiyonu
     {
         inventoryUI.gameObject.SetActive(!isOpened); 
