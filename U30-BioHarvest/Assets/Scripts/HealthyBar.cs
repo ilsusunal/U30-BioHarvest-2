@@ -31,5 +31,6 @@ public class HealtyBar : MonoBehaviour
         {
             can = 0;
         }
+
     }
 }
