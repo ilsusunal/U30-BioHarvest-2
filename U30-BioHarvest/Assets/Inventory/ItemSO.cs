@@ -12,6 +12,7 @@ public class ItemSO : ScriptableObject
     public enum ItemNames
     {
         Seed,
-        Seed2//ilerde kullanabiliriz
+        Seed2,
+        Seed3
     }
 }
