@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEditor.Progress;
 public class InventoryManager : MonoBehaviour
@@ -19,12 +20,14 @@ public class InventoryManager : MonoBehaviour
     private int currentIndex = 0;
     private int pressCount = 0;
     [SerializeField] GameObject rocCam;
+    [SerializeField] private GameObject missionComplete;
 
     [SerializeField] Color selectedColor;
     [SerializeField] Color defaultColor;
 
     [SerializeField] GameObject inventoryUI;
     [SerializeField] bool isOpened;
+
     private void Awake()
     {
         Instance = this;
@@ -101,6 +104,14 @@ public class InventoryManager : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.E))
         {
             OnOfInventory();
+        }
+        if(pressCount == 3)
+        {
+            missionComplete.SetActive(true);
+            if(Input.GetKeyDown(KeyCode.T))
+            {
+                SceneManager.LoadScene("SpaceMissionMenu");
+            }
         }
     }
 
