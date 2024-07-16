@@ -15,6 +15,11 @@ public class InventoryManager : MonoBehaviour
     public int itemIndex;
     [SerializeField] int itemCount;
 
+    [SerializeField] private GameObject[] Seeds; 
+    private int currentIndex = 0;
+    private int pressCount = 0;
+    [SerializeField] GameObject rocCam;
+
     [SerializeField] Color selectedColor;
     [SerializeField] Color defaultColor;
 
@@ -84,9 +89,13 @@ public class InventoryManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F)) //burasý roketi gördüðünde yerleþmesi için veya deniz kabuðunu köprü açmasý gibi yerlerde kullanýlacak ilerde 
         {
-            if (itemToUse != null)
+            if (itemToUse.itemName == ItemSO.ItemNames.Seed && rocCam.activeSelf)
             {
-                    UseItem(itemToUse);
+                UseItem(itemToUse);
+                pressCount++;
+                GameObject gameObject = Seeds[currentIndex];
+                gameObject.SetActive(true);
+                currentIndex = (currentIndex + 1) % Seeds.Length;
             }
         }
         if(Input.GetKeyUp(KeyCode.E))
