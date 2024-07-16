@@ -5,12 +5,20 @@ using UnityEngine;
 public class PlaceChangeInteraction : MonoBehaviour
 {
     public string placeMessage;
-    public JungleTaskManager taskManager;
-    public void Interact()
+    public PlaceManager placeManager;
+
+    void OnTriggerEnter(Collider other)
     {
-        if (taskManager != null)
+        if (other.CompareTag("Player") && placeManager != null)
         {
-            taskManager.UpdatePlace(placeMessage);
+            placeManager.UpdatePlace(placeMessage);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player") && placeManager != null)
+        {
+            placeManager.UpdatePlace("");
         }
     }
 }

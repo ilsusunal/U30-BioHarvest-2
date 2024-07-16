@@ -9,79 +9,59 @@ interface IInteractable{
 public class JungleTaskManager : MonoBehaviour
 {
     public TextMeshProUGUI taskText;
-    public TextMeshProUGUI placeNames;
+    [SerializeField] private float interactRange; 
+    [SerializeField] private LayerMask interactableLayer;
+    [SerializeField] private GameObject buttonCanvas;
+    [SerializeField] private Camera interactionCamera;
+    private bool isPlayerInRange = false;
 
 
     void Start()
     {
         taskText.text = "Hello Astra! Are you ready for a new adventure?";
-        if (placeNames == null)
-        {
-            Debug.LogError("placeText is not assigned in the Inspector.");
-        }
-        else
-        {
-            placeNames.text = "Haven of Seeds";
-        }
-        StartCoroutine(HidePlaceTextAfterDelay(3f));
-    }
-    private IEnumerator HidePlaceTextAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        placeNames.text = "";
     }
 
     public void UpdateTask(string newTask)
     {
         taskText.text = newTask;
     }
-    public void UpdatePlace(string newPlace)
-    {
-        placeNames.text = newPlace;
-    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hitInfo))
-            {
-                Debug.Log("Hit: " + hitInfo.collider.gameObject.name); 
+        Ray ray = new Ray(interactionCamera.transform.position, interactionCamera.transform.forward);
+        Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.red);
 
-                if (hitInfo.collider.TryGetComponent<IInteractable>(out IInteractable interactable))
+        if (Physics.Raycast(ray, out RaycastHit hitInfo, interactRange, interactableLayer))
+        {
+            isPlayerInRange = true;
+            Debug.Log("Raycast hit: " + hitInfo.collider.gameObject.name);
+            Debug.Log("ButtonCanvas active? " + buttonCanvas.activeSelf);
+
+
+            if (!buttonCanvas.activeSelf)
+            {
+                buttonCanvas.SetActive(true);
+            }
+
+            if (hitInfo.collider.TryGetComponent<IInteractable>(out IInteractable interactable))
+            {
+                if (Input.GetKeyDown(KeyCode.M))
                 {
                     interactable.Interact();
-                }
-                else
-                {
-                    Debug.Log("Object does not implement IInteractable.");
                 }
             }
             else
             {
-                Debug.Log("Raycast did not hit any objects.");
+                Debug.Log("Object does not implement IInteractable.");
             }
         }
-
-    }
-
-    /* 
-          if (Input.GetKeyDown(KeyCode.M))
+        else
         {
-            float interactRange = 10f;
-            Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
-
-            if (Physics.Raycast(r, out RaycastHit hitInfo, interactRange))
+            isPlayerInRange = false;
+            if (buttonCanvas.activeSelf)
             {
-                Debug.Log("Hit: " + hitInfo.collider.gameObject.name);
-                    if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactableObj)){
-                    
-                    interactableObj.Interact();
-                }
-    
+                buttonCanvas.SetActive(false);
             }
         }
-     
-     */
+    }
 }
