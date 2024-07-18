@@ -12,6 +12,7 @@ public class AstrasMovement : MonoBehaviour
     [SerializeField] private Transform rayTransform;
     [SerializeField] private Animator astroAnimator;
     [SerializeField] private Vector3 customGravity = new Vector3(0, -20f, 0); // Yeni yer çekimi kuvveti
+    [SerializeField] private Transform cameraTransform;
 
     private Rigidbody rb;
     private float verticalMove;
@@ -31,6 +32,7 @@ public class AstrasMovement : MonoBehaviour
     void Update()
     {
         isGround = GroundCheck();
+        transform.rotation = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
 
         horizontalMove = Input.GetAxis("Horizontal") * walkSpeed;
         verticalMove = Input.GetAxis("Vertical") * walkSpeed;
