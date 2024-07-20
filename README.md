@@ -17,10 +17,19 @@
 Bio Harvest
 
 ## Ürün Açıklaması
+- BioHarvest; macera ve bulmaca oyunudur.
 
-- BioHarvest; macera ve bulmaca oyunudur. 
+## Ürün Hikayesi
 - Küresel ısınmanın etkisiyle Dünya, bir çöl gezegenine dönmüş ve yaşanamaz hale gelmiştir. İnsanlar; gezegeni tamamen terk etmeden önce, Dünya'yı eski haline döndürme umuduyla birçok robotu programlar ve geride bırakırlar. Yıllar sonra, robotların çoğu bozulmuş ve görevlerini tamamlayamamıştır. Fakat umutsuzluğa yer yok, çünkü hayatta kalan tek robot olan Astra var!
 Robot Astra ile farklı gezegenleri keşfedin, çeşitli zorlukları ve bulmacaları çözün ve Dünya’ya tekrar yaşamı getirin. #adventure #3dplatformer #puzzle.
+
+## Zengin Hikaye
+Bölüm 1: Yaşamın Kayıp Parçası: Dünya'yı kurtarmak için yola çıkan Astra, gezegenin özünün kayıp olduğunu keşfeder. Bu kayıp özü bulmak için uzayın derinliklerine doğru bir yolculuğa çıkar.
+Bölüm 2: Umut Tohumları: Astra'nın arayışı, Dünya'yı yeniden yeşertebilecek kaynakların bulunmasıyla umut doğurur. Ancak bu uzay yaşam formları, zorlu Dünya şartlarına uyum sağlayabilecek mi?
+Bölüm 3: Geçmişin Gölgesinde: Dış gezegenlerden getirilen kaynaklar sayesinde doğa canlanmaya başlar. Astra'nın aklını kurcalayan bir soru ise cevabını arar: Geçmişte Dünya'da neler yaşandı? Robot, kayıp cevapları bulmak için unutulmuş kalıntıları araştırır.
+Bölüm 4: Yeniden Doğuş: Dünya, yeniden bitki örtüsüyle kaplanır ve canlılarla dolup taşar. Fakat bu yenilenmiş dünyada kimler yaşayacak? Astra, insanları Dünya'ya geri getirmek mi yoksa yıldızlar arasında yeni bir yolculuğa mı çıkmak zorunda kalacak?
+Bölüm 5: Yeni Bir Ufuk: Canlanan Dünya'nın yeni ekosistemini şekillendirmek Astra'nın görevidir. Robotun uzmanlığı ve kararlılığı, Dünya'yı daha parlak bir geleceğe taşıyacaktır.
+Bölüm 6: Bedel Zamanı: Astra, Dünya'daki görevini tamamlasa da diğer gezegenlerden toplanan kaynakların sonuçlarıyla yüzleşmek zorundadır. Kararlarının yarattığı etkileri düzeltmek için harekete geçer.
 
 ## Ürün Özellikleri
 
@@ -64,7 +73,7 @@ https://app.milanote.com/1Sk0sa1J9xg002/takm-30-bootcamp?p=xnCX4jrYYGU
 ![Backlog 2](https://cdn.discordapp.com/attachments/1251258360012210197/1259186646113321083/image.png?ex=668ac472&is=668972f2&hm=0e61ef1e48440c4c4fe2a1f25711f93eea4689a7e8ce598d51593e78d8f33257&)
 
 - **Daily Scrum**: Daily Scrum toplantılarının WhatsApp ve Discord üzerinden yapılmasına karar verildi. Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
-https://drive.google.com/drive/folders/1JRDM9yzrAPuiW-DcI3KsRh6BD5mtchVU
+[https://drive.google.com/drive/folders/1JRDM9yzrAPuiW-DcI3KsRh6BD5mtchVU](https://drive.google.com/drive/folders/1E6P67_EpZ9Xpe8zy_bnVc-8Yp9io10Rj)
 
 - **Haftalık Toplantıdan Görsel**:
 ![toplatıss](https://github.com/ilsusunal/U30-BioHarvest-2/assets/78484440/e2d74699-99fc-498d-ad19-55ec856a957a)
@@ -91,9 +100,39 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
   - İkinci sprintte yeni mekaniklere karar verilecek.
 
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
+
 # Sprint 2
+- **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodlarının minimap ve can sistemi tamamlandı. EKLENECEK!
 
+- **Puan tamamlama mantığı**: İkinci sprinttin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesinden kaynaklı bu sprinttin puan hedefi 140 olarak belirlendi.
 
+- **Sprint board update**:
+![sprintplanı](https://github.com/user-attachments/assets/35d19d5a-90f0-440c-8a09-644b9d468000)
+![script2](https://github.com/user-attachments/assets/5fd73cff-1f5c-48b3-a14d-8d64387c3ba5)
+![sprint2 1](https://github.com/user-attachments/assets/c46d7cdf-c733-4da3-ba3b-6786833ef03d)
+
+- **Daily Scrum**: Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
+https://drive.google.com/drive/folders/1J2e890ZYJwZ2OHwUs01ufihEZPDNK9kT
+
+- **Haftalık Toplantıdan Görsel**:
+![haftalık toplantı ](https://github.com/user-attachments/assets/3cdcd470-d921-4749-8119-4f145d61b00c)
+
+- **Ürün Durumu**: Ekran görüntüleri
+EKLENECEK!!
+
+- **Sprint Review**: Alınan kararlar
+- Haftada iki toplantı yapılmaya devam edildi.
+- EKLENECEK!!
+
+Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
+
+- **Sprint Retrospective:** Alınan kararlar
+  - Karakterin hareket animasyonları ve mekanikleri eklendi. Fakat birkaç sorundan dolayı ikinci sprintte iyileştirilecek.
+  - Map üzerindeki platformlara mekanikler eklenmiştir.
+  - İlk sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
+  - Oyun kaydetme mekaniğine önem verilmesine karar verildi.
+
+Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
 
 # Sprint 3
