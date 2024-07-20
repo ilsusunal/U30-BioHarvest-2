@@ -27,6 +27,7 @@ public class AstrasMovement : MonoBehaviour
         Cursor.visible = false;
         Physics.gravity = customGravity; // Global yer çekimini ayarla
         astroAnimator = GetComponent<Animator>();
+
     }
 
     void Update()
