@@ -13,6 +13,10 @@ public class NewBehaviourScript : MonoBehaviour
     {
         SceneManager.LoadScene("SpaceMissionMenu");
     }
+    public void LoadTutorial()
+    {
+        SceneManager.LoadScene("TutorialScene");
+    }
 
     //Takim ve oyun hakkinda sahnesi - ABOUT butonu icin
     public void LoadAboutTeam()
