@@ -5,7 +5,7 @@ using UnityEngine;
 public class AstraCameraController : MonoBehaviour
 {
     [SerializeField] Transform followTarget;
-    [SerializeField] float rotationSpeed = 2f;
+    [SerializeField] public float rotationSpeed = 2f; //ÝLSU : cameraSensitivity ayarý için public yaptým
     [SerializeField] float distance = 5;
     [SerializeField] float minVerticalAngle = -45;
     [SerializeField] float maxVerticalAngle = 45;

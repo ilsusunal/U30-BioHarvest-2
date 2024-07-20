@@ -73,12 +73,12 @@ public class TaskManager : MonoBehaviour
     void Update()
     {
         Ray ray = new Ray(interactionCamera.transform.position, interactionCamera.transform.forward);
-        Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.red);
+        //Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.red);
 
         if (Physics.Raycast(ray, out RaycastHit hitInfo, interactRange, interactableLayer))
         {
-            Debug.Log("Raycast hit: " + hitInfo.collider.gameObject.name);
-            Debug.Log("ButtonCanvas active? " + buttonCanvas.activeSelf);
+            //Debug.Log("Raycast hit: " + hitInfo.collider.gameObject.name);
+            //Debug.Log("ButtonCanvas active? " + buttonCanvas.activeSelf);
 
 
             if (!buttonCanvas.activeSelf)
@@ -95,7 +95,7 @@ public class TaskManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Object does not implement IInteractable.");
+                //Debug.Log("Object does not implement IInteractable.");
             }
         }
         else

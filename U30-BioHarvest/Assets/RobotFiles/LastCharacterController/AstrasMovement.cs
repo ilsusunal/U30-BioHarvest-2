@@ -20,6 +20,9 @@ public class AstrasMovement : MonoBehaviour
     private Vector3 moveDirection;
     private bool isGround;
 
+    //SES EKLEMESÝ
+    public SoundManager soundManager;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -39,6 +42,13 @@ public class AstrasMovement : MonoBehaviour
         verticalMove = Input.GetAxis("Vertical") * walkSpeed;
 
         moveDirection = transform.forward * verticalMove + transform.right * horizontalMove;
+
+        //SES EKLEMESÝ
+        bool isWalking = astroAnimator.GetBool("isWalk");
+        if (isWalking)
+        {
+            soundManager.PlayWalkingSound();
+        }
 
         if (horizontalMove == 0 && verticalMove == 0)
         {
