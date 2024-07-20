@@ -101,7 +101,7 @@ public class InventoryManager : MonoBehaviour
                 currentIndex = (currentIndex + 1) % Seeds.Length;
             }
         }
-        if(Input.GetKeyUp(KeyCode.E))
+        if(Input.GetKeyUp(KeyCode.I))
         {
             OnOfInventory();
         }

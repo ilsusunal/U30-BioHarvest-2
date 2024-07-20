@@ -5,12 +5,14 @@ using UnityEngine;
 public class TaskChangeInteraction : MonoBehaviour, IInteractable
 {
     public string taskMessage;
-    public JungleTaskManager taskManager;
+    public TaskManager taskManager;
+    public GameObject buttonCanvas;
     public void Interact()
     {
         if (taskManager != null)
         {
             taskManager.UpdateTask(taskMessage);
+            taskManager.UpdateButtonCanvas(buttonCanvas);
         }
     }
 }
