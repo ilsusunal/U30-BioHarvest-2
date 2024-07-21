@@ -35,6 +35,7 @@ Bölüm 6: Bedel Zamanı: Astra, Dünya'daki görevini tamamlasa da diğer gezeg
 
 - Mekanikler:
   -	Bulmacaları çözerek kaynak toplama
+  -	Toplanan kaynaklarını envanterde görünmesi ve gerektiğinde kullanılması
   -	Mini map sayesinde haritadaki konumunuzu görme
   -	Third person bakış açısı
   
@@ -102,13 +103,14 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
 # Sprint 2
-- **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodlarının minimap ve can sistemi tamamlandı. EKLENECEK!
+- **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodlarının minimap ve can sistemi tamamlandı.
 
 - **Puan tamamlama mantığı**: İkinci sprinttin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesinden kaynaklı bu sprinttin puan hedefi 140 olarak belirlendi.
 
 - **Sprint board update**:
 ![sprintplanı](https://github.com/user-attachments/assets/35d19d5a-90f0-440c-8a09-644b9d468000)
 ![script2](https://github.com/user-attachments/assets/5fd73cff-1f5c-48b3-a14d-8d64387c3ba5)
+![2  sprint yapılanlar](https://github.com/user-attachments/assets/a4a9ea07-dd64-4bab-82a5-6e318b8ee1c6)
 ![sprint2 1](https://github.com/user-attachments/assets/c46d7cdf-c733-4da3-ba3b-6786833ef03d)
 
 - **Daily Scrum**: Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
@@ -118,23 +120,27 @@ https://drive.google.com/drive/folders/1J2e890ZYJwZ2OHwUs01ufihEZPDNK9kT
 ![haftalık toplantı ](https://github.com/user-attachments/assets/3cdcd470-d921-4749-8119-4f145d61b00c)
 
 - **Ürün Durumu**: Ekran görüntüleri
-EKLENECEK!!
+![npc](https://github.com/user-attachments/assets/25283c21-14ff-4310-8541-1d72265b2cfc)
+![WaterPuzzle](https://github.com/user-attachments/assets/0f9b660f-bb7a-44a8-89d1-0495c3562839)
+![tutorial](https://github.com/user-attachments/assets/f9ce3b67-c55f-49ff-95ed-f9d7c1102420)
+![uı](https://github.com/user-attachments/assets/e628cd4a-b6ab-4d93-8943-e2df6cb6ebdd)
 
 - **Sprint Review**: Alınan kararlar
 - Haftada iki toplantı yapılmaya devam edildi.
-- EKLENECEK!!
+- Jungle haritasının tamamlanması hedefi eksikleri olsa da tamamlandı.
+- UI kısmı ilk map için tamamlandı.
+- Jungle sahnesine collider eklendi.
+- Tutorial sahnesinin çevre tasarımı yapıldı.
 
 Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
 - **Sprint Retrospective:** Alınan kararlar
-  - Karakterin hareket animasyonları ve mekanikleri eklendi. Fakat birkaç sorundan dolayı ikinci sprintte iyileştirilecek.
-  - Map üzerindeki platformlara mekanikler eklenmiştir.
-  - İlk sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
+  - Karakterin hareket mekanikleri ve kamera açısı hazırlandı. Bir sonraki sprintte her haritaya uygulanarak son kontrollerin sağlanmasına karar verildi.
+  - Map üzerindeki puzzle platformuna mekanikler eklenmiştir.
+  - 2. sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
   - Oyun kaydetme mekaniğine önem verilmesine karar verildi.
-
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
-
 # Sprint 3
 
 ---
