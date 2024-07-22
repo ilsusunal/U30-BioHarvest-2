@@ -137,7 +137,7 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 - **Sprint Retrospective:** Alınan kararlar
   - Karakterin hareket mekanikleri ve kamera açısı hazırlandı. Bir sonraki sprintte her haritaya uygulanarak son kontrollerin sağlanmasına karar verildi.
   - Map üzerindeki puzzle platformuna mekanikler eklenmiştir.
-  - 2. sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
+  - Bu sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
   - Oyun kaydetme mekaniğine önem verilmesine karar verildi.
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
