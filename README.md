@@ -104,8 +104,8 @@ Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 
 # Sprint 2
 - **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodlarının minimap ve can sistemi tamamlandı.
-
-- **Puan tamamlama mantığı**: İkinci sprinttin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesinden kaynaklı bu sprinttin puan hedefi 140 olarak belirlendi.
+- **Tamamlanması tahmin edilen puan**: 140
+- **Puan tamamlama mantığı**: İkinci sprinttin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesinden kaynaklı 140 olarak belirlendi.
 
 - **Sprint board update**:
 ![sprintplanı](https://github.com/user-attachments/assets/35d19d5a-90f0-440c-8a09-644b9d468000)
