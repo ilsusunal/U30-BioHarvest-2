@@ -103,9 +103,9 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
 # Sprint 2
-- **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodlarının minimap ve can sistemi tamamlandı.
+- **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodları, minimap ve can sistemi tamamlandı.
 - **Tamamlanması tahmin edilen puan**: 140
-- **Puan tamamlama mantığı**: İkinci sprinttin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesinden kaynaklı 140 olarak belirlendi.
+- **Puan tamamlama mantığı**: İkinci sprintin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesi göz önüne alınarak 140 olarak belirlendi.
 
 - **Sprint board update**:
 ![sprintplanı](https://github.com/user-attachments/assets/35d19d5a-90f0-440c-8a09-644b9d468000)
@@ -113,7 +113,7 @@ Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 ![2  sprint yapılanlar](https://github.com/user-attachments/assets/a4a9ea07-dd64-4bab-82a5-6e318b8ee1c6)
 ![sprint2 1](https://github.com/user-attachments/assets/c46d7cdf-c733-4da3-ba3b-6786833ef03d)
 
-- **Daily Scrum**: Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
+- **Daily Scrum**: Daily Scrum görsellerinin bulunduğu drive linki:
 https://drive.google.com/drive/folders/1J2e890ZYJwZ2OHwUs01ufihEZPDNK9kT
 
 - **Haftalık Toplantıdan Görsel**:
@@ -136,9 +136,10 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 
 - **Sprint Retrospective:** Alınan kararlar
   - Karakterin hareket mekanikleri ve kamera açısı hazırlandı. Bir sonraki sprintte her haritaya uygulanarak son kontrollerin sağlanmasına karar verildi.
-  - Map üzerindeki puzzle platformuna mekanikler eklenmiştir.
+  - Map üzerindeki puzzle platformuna mekanikler eklendi.
   - Bu sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
   - Oyun kaydetme mekaniğine önem verilmesine karar verildi.
+
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
 # Sprint 3
