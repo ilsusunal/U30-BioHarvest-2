@@ -85,11 +85,11 @@ https://app.milanote.com/1Sk0sa1J9xg002/takm-30-bootcamp?p=xnCX4jrYYGU
 ![jungle](https://github.com/ilsusunal/ilsusunal/assets/148697098/d99fd26e-68c5-42a0-9dfc-adb992a197cb)
 
 - **Sprint Review**: Alınan kararlar
-- Haftada iki toplantı yapılmasına karar verildi. Bu toplantılarda herkes ne yaptığını paylaştı ve projenin durumu konuşuldu.
-- 3D, platform, puzle oyunu yapılmasına karar verildi.
-- Proje'de Unity  2022.3.34f1 sürümünde URP olarak oluşturuldu.
-- İlk iki haritanın çevre tasarımı bitirildi.
-- İlk sprintte başlangıç ekranın tasarlanmasına karar verildi. Ve gerçekleştirildi.
+  - Haftada iki toplantı yapılmasına karar verildi. Bu toplantılarda herkes ne yaptığını paylaştı ve projenin durumu konuşuldu.
+  - 3D, platform, puzle oyunu yapılmasına karar verildi.
+  - Proje'de Unity  2022.3.34f1 sürümünde URP olarak oluşturuldu.
+  - İlk iki haritanın çevre tasarımı bitirildi.
+  - İlk sprintte başlangıç ekranın tasarlanmasına karar verildi. Ve gerçekleştirildi.
 
 Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
@@ -126,11 +126,11 @@ https://drive.google.com/drive/folders/1J2e890ZYJwZ2OHwUs01ufihEZPDNK9kT
 ![uı](https://github.com/user-attachments/assets/e628cd4a-b6ab-4d93-8943-e2df6cb6ebdd)
 
 - **Sprint Review**: Alınan kararlar
-- Haftada iki toplantı yapılmaya devam edildi.
-- Jungle haritasının tamamlanması hedefi eksikleri olsa da tamamlandı.
-- UI kısmı ilk map için tamamlandı.
-- Jungle sahnesine collider eklendi.
-- Tutorial sahnesinin çevre tasarımı yapıldı.
+  - Haftada iki toplantı yapılmaya devam edildi.
+  - Jungle haritasının tamamlanması hedefi eksikleri olsa da tamamlandı.
+  - UI kısmı ilk map için tamamlandı.
+  - Jungle sahnesine collider eklendi.
+  - Tutorial sahnesinin çevre tasarımı yapıldı.
 
 Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
