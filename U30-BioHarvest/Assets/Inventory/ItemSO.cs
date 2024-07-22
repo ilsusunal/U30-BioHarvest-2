@@ -14,6 +14,7 @@ public class ItemSO : ScriptableObject
         Seed,
         Seed2,
         Seed3,
-        SeaShell
+        SeaShell,
+        Pearl
     }
 }
