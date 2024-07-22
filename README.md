@@ -90,7 +90,6 @@ https://app.milanote.com/1Sk0sa1J9xg002/takm-30-bootcamp?p=xnCX4jrYYGU
   - Proje'de Unity  2022.3.34f1 sürümünde URP olarak oluşturuldu.
   - İlk iki haritanın çevre tasarımı bitirildi.
   - İlk sprintte başlangıç ekranın tasarlanmasına karar verildi. Ve gerçekleştirildi.
-
 Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
 - **Sprint Retrospective:** Alınan kararlar
@@ -99,7 +98,6 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
   - İlk sprintte hedeflenen 130 puana ulaşıldı.
   - Puanlama sisteminin iyileştirilmesine karar verildi.
   - İkinci sprintte yeni mekaniklere karar verilecek.
-
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
 # Sprint 2
@@ -131,7 +129,6 @@ https://drive.google.com/drive/folders/1J2e890ZYJwZ2OHwUs01ufihEZPDNK9kT
   - UI kısmı ilk map için tamamlandı.
   - Jungle sahnesine collider eklendi.
   - Tutorial sahnesinin çevre tasarımı yapıldı.
-
 Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 
 - **Sprint Retrospective:** Alınan kararlar
@@ -139,7 +136,6 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
   - Map üzerindeki puzzle platformuna mekanikler eklendi.
   - Bu sprintte hedeflenen 140 puana ulaşılamadı. Toplam puan 236'ya çıkarıldı.
   - Oyun kaydetme mekaniğine önem verilmesine karar verildi.
-
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
 # Sprint 3
