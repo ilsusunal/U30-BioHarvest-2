@@ -16,11 +16,11 @@ public class InventoryManager : MonoBehaviour
     public int itemIndex;
     [SerializeField] int itemCount;
 
-    [SerializeField] private GameObject[] Seeds; 
-    private int currentIndex = 0;
+    //[SerializeField] private GameObject[] Seeds;
+    //private int currentIndex = 0;
     private int pressCount = 0;
-    [SerializeField] GameObject rocCam;
-    [SerializeField] private GameObject missionComplete;
+    //[SerializeField] GameObject rocCam;
+    //[SerializeField] private GameObject missionComplete;
 
     [SerializeField] Color selectedColor;
     [SerializeField] Color defaultColor;
@@ -90,25 +90,25 @@ public class InventoryManager : MonoBehaviour
             SelectItem((int)Input.mouseScrollDelta.y);
         }
 
-        if (Input.GetKeyDown(KeyCode.F)) //burasý roketi gördüðünde yerleþmesi için veya deniz kabuðunu köprü açmasý gibi yerlerde kullanýlacak ilerde 
-        {
-            if (itemToUse.itemName == ItemSO.ItemNames.Seed && rocCam.activeSelf)
-            {
-                UseItem(itemToUse);
-                pressCount++;
-                GameObject gameObject = Seeds[currentIndex];
-                gameObject.SetActive(true);
-                currentIndex = (currentIndex + 1) % Seeds.Length;
-            }
-        }
-        if(Input.GetKeyUp(KeyCode.I))
+        //if (Input.GetKeyDown(KeyCode.F)) //burasý roketi gördüðünde yerleþmesi için veya deniz kabuðunu köprü açmasý gibi yerlerde kullanýlacak ilerde 
+        //{ //bu rokete yazýlacak
+        //    if (itemToUse.itemName == ItemSO.ItemNames.Seed && rocCam.activeSelf)
+        //    {
+        //        UseItem(itemToUse);
+        //        pressCount++;
+        //        GameObject gameObject = Seeds[currentIndex];
+        //        gameObject.SetActive(true);
+        //        currentIndex = (currentIndex + 1) % Seeds.Length;
+        //    }
+        //}
+        if (Input.GetKeyUp(KeyCode.I))
         {
             OnOfInventory();
         }
-        if(pressCount == 3)
+        if (pressCount == 3)
         {
-            missionComplete.SetActive(true);
-            if(Input.GetKeyDown(KeyCode.T))
+            //missionComplete.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.T))
             {
                 SceneManager.LoadScene("SpaceMissionMenu");
             }
@@ -117,7 +117,7 @@ public class InventoryManager : MonoBehaviour
 
     public void OnOfInventory() //açýksa kapat kapalýysa aç fonksiyonu
     {
-        inventoryUI.gameObject.SetActive(!isOpened); 
+        inventoryUI.gameObject.SetActive(!isOpened);
         isOpened = !isOpened;
     }
 
