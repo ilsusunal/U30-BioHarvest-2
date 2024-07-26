@@ -30,6 +30,7 @@ public class HealtyBar : MonoBehaviour
         {
             AzaltCan(10);
         }
+        
     }
 
     void OnTriggerEnter(Collider other)
@@ -48,4 +49,5 @@ public class HealtyBar : MonoBehaviour
         if (can < 0) can = 0;
         healthSlider.value = can; // Can deðeri deðiþtiðinde Slider'ý güncelle
     }
+
 }

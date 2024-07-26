@@ -28,7 +28,7 @@ public class HealthBarS : MonoBehaviour
         }
     }
 
-    void AddHealth(int value)
+    public void AddHealth(int value)
     {
         health += value;
         if (health > maxHealth)
@@ -41,14 +41,5 @@ public class HealthBarS : MonoBehaviour
         }
 
         healthBar.value = health;
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Water"))
-        {
-            Debug.Log("Suya dokundu"); // Bu satýr ile suya dokunma algýlamasýný kontrol edin
-            AddHealth(-10); // Suya deðdiðinde caný azalt
-        }
     }
 }

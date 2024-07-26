@@ -13,7 +13,7 @@ public class TaskManager : MonoBehaviour
     [SerializeField] private float interactRange; 
     [SerializeField] private LayerMask interactableLayer;
     [SerializeField] private GameObject buttonCanvas;
-    [SerializeField] private Camera interactionCamera;
+    [SerializeField] private GameObject interactionCamera;
 
     [SerializeField] private GameObject miniTaskPanel;
     [SerializeField] private TMP_Text toggleButtonText;
