@@ -9,6 +9,7 @@
 - Hamza Sıvacı: Team Member/Developer
 - Hasan Demirtaş: Team Member/Developer
 - İlsu Sunal: Team Member/Developer
+---
 
 # Ürün İle İlgili Bilgiler
 
@@ -62,9 +63,10 @@ https://app.milanote.com/1Sk0sa1J9xg002/takm-30-bootcamp?p=xnCX4jrYYGU
 
 ---
 
-# Sprint 1
-
-- **Sprint Notları**: İlk sprintte hareket kodlarının minimap ve can sisteminin bitmesi hedeflendi. Fakat yetişmediği için ikinci sprinte aktarıldı.
+<details>
+  <summary><h1>Sprint 1</h1></summary>
+  
+**Sprint Notları**: İlk sprintte hareket kodlarının minimap ve can sisteminin bitmesi hedeflendi. Fakat yetişmediği için ikinci sprinte aktarıldı.
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 390 puanlık backlog bulunmaktadır. 390 puan, 4 sprint'e bölündüğünde ilk sprint 130 puanlık görevin bitirilmesine karar verildi. Yapılacak işlere puan atarken aşağıdaki tablo kullanıldı.
 ![Backlog 1](https://cdn.discordapp.com/attachments/1251258360012210197/1255575155329994762/InitialPointtoHourEstimate.jpg?ex=668a273c&is=6688d5bc&hm=85ec6a103f8e8bcc711d9af870b1a5c444c017506d8cf59479491882d2aad5e7&)
@@ -99,8 +101,10 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
   - Puanlama sisteminin iyileştirilmesine karar verildi.
   - İkinci sprintte yeni mekaniklere karar verilecek.
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
+</details>
 
-# Sprint 2
+  <details>
+    <summary><h1>Sprint 2</h1></summary>
 - **Sprint Notları**: İkinci sprintte ilk sprintten kalan hareket kodları, minimap ve can sistemi tamamlandı.
 - **Tamamlanması tahmin edilen puan**: 140
 - **Puan tamamlama mantığı**: İkinci sprintin hedefi bir önceki sprintten kalan görevler ve projenin ilerlemesi göz önüne alınarak 140 olarak belirlendi.
@@ -138,6 +142,9 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
   - Oyun kaydetme mekaniğine önem verilmesine karar verildi.
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
-# Sprint 3
+</details>
 
+  <details>
+    <summary><h1>Sprint 3</h1></summary>
+doldurulacak
 ---
