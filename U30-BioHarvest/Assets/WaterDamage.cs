@@ -9,8 +9,8 @@ public class WaterDamage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Suya dokundu"); // Bu satýr ile suya dokunma algýlamasýný kontrol edin
-            healthBarS.AddHealth(-10); // Suya deðdiðinde caný azalt
+            //Debug.Log("Suya dokundu"); // Bu satýr ile suya dokunma algýlamasýný kontrol edin
+            healthBarS.AddHealth(-1); // Suya deðdiðinde caný azalt
         }
     }
 }
