@@ -1,0 +1,66 @@
+Adım 1: Model ve NavMesh Hazırlığı
+Arı Modeli: Projenize bir arı modeli ekleyin ve sahneye yerleştirin.
+NavMesh Bileşenleri: Arının uçmasını istediğiniz alanı NavMesh olarak belirleyin. Bunun için sahnede bir veya daha fazla nesne seçip Navigation penceresinden Bake işlemini gerçekleştirin.
+Adım 2: Arı Modeline Bileşenler Ekleme
+NavMeshAgent: Arı modeline NavMeshAgent bileşeni ekleyin.
+
+Arı modelini seçin.
+Inspector penceresinde Add Component butonuna tıklayın.
+NavMeshAgent arayın ve ekleyin.
+Arı NavMesh üzerinde hareket edebilmesi için Agent Height ve Agent Radius değerlerini arı modeline uygun şekilde ayarlayın.
+Rigidbody: Arı modeline Rigidbody bileşeni ekleyin.
+
+Rigidbody bileşenini ekledikten sonra Use Gravity seçeneğini devre dışı bırakın. Bu, arının havada kalmasını sağlar.
+Collider: Arı modeline uygun bir Collider ekleyin (örneğin, Sphere Collider).
+
+Adım 3: Patroller Noktaları Ayarlama
+Patrol Points: Devriye noktalarını oluşturun.
+Sahneye boş GameObject nesneleri ekleyin ve bunları patrolPoints olarak adlandırın.
+Bu nesneleri arının devriye gezeceği yerlere yerleştirin.
+Adım 4: Oyuncu Nesnesi Eklemek
+Player Tag: Oyuncu karakterinizin tag'ini Player olarak ayarlayın.
+Oyuncu nesnesini seçin.
+Inspector penceresinde Tag alanından Player tag'ini seçin.
+Adım 5: Stinger Prefab Oluşturma
+Stinger Prefab: İğne modelini oluşturun ve bir Prefab olarak kaydedin.
+Sahneye iğne modelini ekleyin.
+Prefab olarak kaydedin (Assets klasörüne sürükleyip bırakabilirsiniz).
+Adım 6: Scripti Yazma ve Bağlama
+Script Oluşturma:
+Proje panelinde uygun bir klasöre sağ tıklayın ve Create > C# Script seçeneğini seçin.
+Script'e BeeAI adını verin ve açarak aşağıdaki kodu yapıştırın.
+Script Bağlama:
+Arı modelini seçin.
+Inspector penceresinde Add Component butonuna tıklayın.
+BeeAI script'ini arayın ve ekleyin.
+Script'in içinde patrolPoints, stingerPrefab, stingerSpawnPoint gibi değişkenleri Unity Inspector'da tanımlayın. patrolPoints için oluşturduğunuz devriye noktalarını ekleyin, stingerPrefab için iğne prefab'ini seçin, ve stingerSpawnPoint için arı modelinde bir boş Transform ekleyip bu alanı seçin.
+Adım 7: Test Etme
+Test: Sahnenizi çalıştırın ve arının belirli noktalar arasında devriye gezip, oyuncuyu gördüğünde iğne fırlattığından emin olun.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Bu hata, oluşturulan iğne (stinger) prefab'inin bir Rigidbody bileşenine sahip olmadığını gösteriyor. Bu sorunu çözmek için iğne prefab'ine bir Rigidbody bileşeni eklememiz gerekiyor.
+
+Adım 1: Stinger Prefab'ine Rigidbody Ekleme
+Stinger Prefab'i Seçme:
+
+Proje panelinde iğne (stinger) prefab'ini bulun ve seçin.
+Rigidbody Bileşeni Ekleme:
+
+Inspector penceresinde Add Component butonuna tıklayın.
+Rigidbody arayın ve ekleyin.
+Adım 2: Rigidbody Ayarları
+Rigidbody Ayarlarını Yapma:
+Use Gravity seçeneğini işaretli bırakabilirsiniz veya iğnenin hareketine bağlı olarak bu ayarı kapatabilirsiniz.
+Bu adımları takip ederek stinger prefab'ine Rigidbody bileşeni ekledikten sonra hatanın çözülmesi gerekir. İşte adım adım rehber:
+
+Stinger Prefab'ini Seçin:
+
+Proje panelinde Assets klasöründen stingerPrefab (örneğin Sphere) nesnesini bulun ve seçin.
+Rigidbody Ekleme:
+
+Inspector penceresinde Add Component butonuna tıklayın.
+Rigidbody arayın ve ekleyin.
+Ayarları Yapma:
+
+Use Gravity seçeneğini ihtiyacınıza göre açık veya kapalı hale getirin.
