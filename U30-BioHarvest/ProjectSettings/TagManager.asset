@@ -8,6 +8,8 @@ TagManager:
   - Door
   - Sea
   - water
+  - Water
+  - Interactable
   layers:
   - Default
   - TransparentFX

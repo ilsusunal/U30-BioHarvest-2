@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public class WorldInteraction : MonoBehaviour
+public class PopUpManager : MonoBehaviour
 {
     public GameObject popUpPanel;
 
@@ -18,16 +19,16 @@ public class WorldInteraction : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform == transform)
+                if (hit.transform.CompareTag("Interactable"))
                 {
                     ShowPopUp();
                 }
-                else if (popUpPanel.activeSelf)
+                else
                 {
                     HidePopUp();
                 }
             }
-            else if (popUpPanel.activeSelf)
+            else
             {
                 HidePopUp();
             }
