@@ -10,7 +10,7 @@ public class TrapDamage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //Debug.Log("Suya dokundu"); // Bu satýr ile suya dokunma algýlamasýný kontrol edin
-            healthBarS.AddHealth(-10); // Suya deðdiðinde caný azalt
+            healthBarS.AddHealth(-50); // Suya deðdiðinde caný azalt
         }
     }
 }
