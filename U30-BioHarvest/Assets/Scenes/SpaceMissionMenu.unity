@@ -573,8 +573,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 3000
-  field of view: 64.90714
+  far clip plane: 5000
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -600,13 +600,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.323971, y: -0, z: -0, w: 0.946067}
-  m_LocalPosition: {x: 137, y: 1005, z: -1324}
+  m_LocalRotation: {x: 0.19138102, y: -0.021226635, z: 0.0024159546, w: 0.98128337}
+  m_LocalPosition: {x: 105.8, y: 629, z: -1415}
   m_LocalScale: {x: 1.3321, y: 1, z: 1.4696}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 37.806, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 22.068, y: -2.519, z: -0.209}
 --- !u!1 &969877516
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,13 +831,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792631827}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.100931235, y: -0.66715646, z: 0.022099253, w: 0.7377174}
-  m_LocalPosition: {x: 1974, y: -377, z: 1320}
+  m_LocalRotation: {x: 0.124651715, y: -0.6344946, z: -0.015657615, w: 0.762649}
+  m_LocalPosition: {x: 5017, y: -992, z: 2257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1288827523}
-  m_LocalEulerAnglesHint: {x: 10.277, y: -84.785, z: -5.954}
+  m_LocalEulerAnglesHint: {x: 9.803, y: -80.434, z: -10.647}
 --- !u!199 &1792631829
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -859,7 +859,8 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be28608a412284745bf8a1052a883b43, type: 2}
+  - {fileID: 2100000, guid: ee800d80d1ac98344a838ba2215f03b0, type: 2}
+  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -903,7 +904,7 @@ ParticleSystemRenderer:
   m_VertexStreams: 00010304
   m_UseCustomTrailVertexStreams: 0
   m_TrailVertexStreams: 00010304
-  m_Mesh: {fileID: 4300000, guid: dd83a56d3f3dcf048a9d5d85577db695, type: 3}
+  m_Mesh: {fileID: -5495902117074765545, guid: 77f81a2610b756d47a1f5463787e6212, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -920,7 +921,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792631827}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 10
   simulationSpeed: 2
   stopAction: 2
   cullingMode: 0
@@ -1048,8 +1049,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 120
-      minScalar: 30
+      scalar: 200
+      minScalar: 100
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1166,8 +1167,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 250
-      minScalar: 150
+      scalar: 450
+      minScalar: 250
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1749,7 +1750,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4
+      scalar: 1
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4813,13 +4814,13 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 0
+    enabled: 1
     mode: 0
-    ratio: 1
+    ratio: 0.1
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4869,9 +4870,9 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    minVertexDistance: 0.2
+    minVertexDistance: 1
     textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureScale: {x: 0.2, y: 0.2}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -4950,7 +4951,7 @@ ParticleSystem:
     widthOverTrail:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.01
       minScalar: 1
       maxCurve:
         serializedVersion: 2
