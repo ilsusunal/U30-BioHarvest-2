@@ -1,0 +1,42 @@
+Adım 1: Unity Projesini Hazırlayın
+Unity Projesi Açma:
+Unity Hub'ı açın ve yeni bir 3D proje oluşturun veya mevcut bir projeyi açın.
+Adım 2: Ağaç Canavar Modelini Ekleyin
+Ağaç Canavar Modeli:
+Ağaç canavar modelinizi Unity projesine import edin.
+Modeli sahneye sürükleyin ve uygun bir pozisyona yerleştirin.
+Adım 3: Script Oluşturma ve Ekleme
+Yeni C# Scripti Oluşturma:
+Proje penceresinde Assets klasörüne sağ tıklayın, Create > C# Script seçeneğini seçin ve scriptin adını TreeMonsterAI yapın.
+Aşağıdaki kodu bu script dosyasına yapıştırın:
+////////////////////////////////////////////////
+Scripti Ağaç Canavarına Ekleme:
+Ağaç canavar modelini seçin.
+Inspector penceresinde Add Component düğmesine tıklayın ve TreeMonsterAI scriptini ekleyin.
+Adım 4: Player ve Balta Prefab'lerini Hazırlama
+Player Nesnesini Ayarlama:
+
+Sahneye oyuncu karakterinizi ekleyin. Örneğin, bir kapsül (Capsule) ekleyip üzerine Rigidbody ve Collider bileşenleri ekleyebilirsiniz.
+TreeMonsterAI scriptindeki player değişkenine bu oyuncu nesnesini sürükleyip bırakın.
+Balta Prefab'i Oluşturma:
+
+Baltanın modelini projeye import edin.
+Baltayı sahneye sürükleyin ve Rigidbody ile uygun Collider bileşenlerini ekleyin.
+Baltayı Assets klasörüne sürükleyerek bir prefab oluşturun.
+Baltayı sahneden silin.
+TreeMonsterAI scriptindeki axePrefab değişkenine bu balta prefab'ini sürükleyip bırakın.
+Adım 5: Axe Spawn Point Ekleyin
+Axe Spawn Point Ayarlama:
+Ağaç canavarının bir parçası olarak boş bir GameObject ekleyin (Create Empty).
+Bu GameObject'i ağaç canavarının baltayı fırlatacağı noktaya yerleştirin.
+TreeMonsterAI scriptindeki axeSpawnPoint değişkenine bu GameObject'i sürükleyip bırakın.
+Adım 6: Trigger Alanı Oluşturma
+Sphere Collider Ekleyin:
+Ağaç canavarına bir Sphere Collider bileşeni ekleyin.
+Is Trigger kutucuğunu işaretleyin.
+Radius değerini oyuncunun algılanmasını istediğiniz mesafeye göre ayarlayın.
+Adım 7: Test Etme
+Sahneyi Kaydedin ve Oynatın:
+Sahneyi kaydedin (File > Save Scene).
+Oyun sahnesini oynatın ve oyuncunun belirli bir mesafeye geldiğinde baltanın fırlatıldığını kontrol edin.
+Baltanın dönerek oyuncuya doğru hareket ettiğinden emin olun.
