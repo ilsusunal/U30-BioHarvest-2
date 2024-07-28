@@ -73,7 +73,7 @@ public class TaskManager : MonoBehaviour
     void Update()
     {
         Ray ray = new Ray(interactionCamera.transform.position, interactionCamera.transform.forward);
-        //Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.red);
+        Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.red);
 
         if (Physics.Raycast(ray, out RaycastHit hitInfo, interactRange, interactableLayer))
         {
