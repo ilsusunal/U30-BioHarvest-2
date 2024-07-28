@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour
     // Müzik ses düzeyi
     public void SetMusicVolume(float volume)
     {
+        Debug.Log("MUSIC VOLUME IS CHANGING");
         musicSource.volume = volume;
     }
 
@@ -36,7 +37,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayWalkingSound()
     {
-        Debug.Log("Playing walking sound.");
+        //Debug.Log("Playing walking sound.");
         sfxSource.Play();
     }
 }

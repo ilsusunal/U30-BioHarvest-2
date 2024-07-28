@@ -4,8 +4,8 @@ using UnityEngine.AI;
 public class TurtleAI : MonoBehaviour
 {
     public Transform player;
-    public float chaseRange = 10f;
-    public float attackRange = 2f;
+    public float chaseRange = 100f;
+    public float attackRange = 60f;
     public int damage = 10;
     public float attackCooldown = 2f;
 
@@ -77,6 +77,7 @@ public class TurtleAI : MonoBehaviour
     private void ChasePlayer()
     {
         agent.SetDestination(player.position);
+        //Debug.Log("PLAYER FOUND!!!");
         if (animator != null)
         {
             animator.SetBool("isWalking", true);
@@ -85,6 +86,7 @@ public class TurtleAI : MonoBehaviour
 
     private void AttackPlayer()
     {
+        //Debug.Log("ATTACK!!!");
         lastAttackTime = Time.time;
         if (animator != null)
         {
