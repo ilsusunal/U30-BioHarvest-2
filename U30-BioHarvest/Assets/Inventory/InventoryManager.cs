@@ -10,6 +10,7 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
     public List<InventoryListItem> itemList;
+    private TaskStatusManager statusManager;
 
     public ItemSO itemToUse;
 
@@ -27,6 +28,7 @@ public class InventoryManager : MonoBehaviour
 
     [SerializeField] GameObject inventoryUI;
     [SerializeField] bool isOpened;
+    [SerializeField] ItemSO Seedd;
 
     private void Awake()
     {
@@ -48,6 +50,10 @@ public class InventoryManager : MonoBehaviour
                 item.iitemcount++;
      
                 item.itemCountM.text = item.iitemcount.ToString() + " / " + item.itemInfo.goalCount.ToString();
+                if(item.itemInfo == Seedd)
+                {
+                    statusManager.CollectItem();
+                }
                 break;
             }
 
