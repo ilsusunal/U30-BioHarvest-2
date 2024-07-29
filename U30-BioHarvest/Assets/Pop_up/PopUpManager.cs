@@ -1,13 +1,16 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PopUpManager : MonoBehaviour
 {
-    public GameObject popUpPanel;
+    private GameObject currentPopUpPanel; // Þu anda açýk olan popup paneli
 
     void Start()
     {
-        popUpPanel.SetActive(false); // Baþlangýçta pop-up panelini gizle
+        // Baþlangýçta tüm pop-up panellerini gizle
+        if (currentPopUpPanel != null)
+        {
+            currentPopUpPanel.SetActive(false);
+        }
     }
 
     void Update()
@@ -19,9 +22,10 @@ public class PopUpManager : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
+                // Interactable tag'ine sahip bir objeye týklandýysa
                 if (hit.transform.CompareTag("Interactable"))
                 {
-                    ShowPopUp();
+                    ShowPopUp(hit.transform.gameObject);
                 }
                 else
                 {
@@ -35,13 +39,41 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
-    public void ShowPopUp()
+    public void ShowPopUp(GameObject planet)
     {
-        popUpPanel.SetActive(true);
+        // Önceki açýk olan popup'ý gizle
+        if (currentPopUpPanel != null)
+        {
+            currentPopUpPanel.SetActive(false);
+        }
+
+        // Gezegenin child canvas'ýný bul
+        Transform canvasTransform = planet.transform.Find("Canvas");
+        if (canvasTransform != null)
+        {
+            // Canvas altýndaki paneli bul
+            Transform popUpPanelTransform = canvasTransform.Find("PopUpPanel");
+            if (popUpPanelTransform != null)
+            {
+                currentPopUpPanel = popUpPanelTransform.gameObject;
+                currentPopUpPanel.SetActive(true);
+            }
+            else
+            {
+            }
+        }
+        else
+        {
+        }
     }
 
     public void HidePopUp()
     {
-        popUpPanel.SetActive(false);
+        // Mevcut popup'ý gizle
+        if (currentPopUpPanel != null)
+        {
+            currentPopUpPanel.SetActive(false);
+            currentPopUpPanel = null;
+        }
     }
 }
