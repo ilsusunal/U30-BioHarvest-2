@@ -8,9 +8,10 @@ public class TaskStatusManager : MonoBehaviour
 {
     public static TaskStatusManager Instance;
     public TaskManager taskManager;
+    private InventoryManager inventoryManager;
 
     public int itemsCollected = 0;
-    public int itemsToCollect = 5;
+    public int itemsToCollect = 1;
     public bool noDamageTaken = true;
     public int enemiesDefeated = 0;
     public int enemiesToDefeat = 3;
@@ -29,17 +30,19 @@ public class TaskStatusManager : MonoBehaviour
 
     private void Start()
     {
+        inventoryManager = InventoryManager.Instance;
         UpdateTaskStatuses();
     }
 
-    public void CollectItem() //Inventory managera þunun eklenmasi lazým:  TaskStatusManager.Instance.CollectItem();
+    public void CollectItemForTask(int itemNo) //Inventory managera þunun eklenmasi lazým:  TaskStatusManager.Instance.CollectItem();
     {
-        itemsCollected++;
-        if (itemsCollected >= itemsToCollect)
+        itemsCollected += itemNo;
+        Debug.Log(" Collected item no : " + itemsCollected);
+        if (itemsCollected == itemsToCollect)
         {
-            taskManager.CompleteTask(taskManager.miniTaskText1, taskManager.miniTaskBackground1);
+            UpdateTaskStatuses();
+            Debug.Log(" MINI TASK 1 COMPLETED ");
         }
-        UpdateTaskStatuses();
     }
 
     public void TakeDamage() //Healthe þunun eklenmesi lazým: TaskStatusManager.Instance.TakeDamage();

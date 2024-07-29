@@ -10,6 +10,7 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
     public List<InventoryListItem> itemList;
+    private TaskStatusManager statusManager;
 
     public ItemSO itemToUse;
 
@@ -27,6 +28,7 @@ public class InventoryManager : MonoBehaviour
 
     [SerializeField] GameObject inventoryUI;
     [SerializeField] bool isOpened;
+    [SerializeField] ItemSO Seedd;
 
     private void Awake()
     {
@@ -48,6 +50,7 @@ public class InventoryManager : MonoBehaviour
                 item.itemCountM.text = item.iitemcount.ToString() + " / " + item.itemInfo.goalCount.ToString();
                 break;
             }
+
             else if (item.itemInfo == null)
             {
                 Color _color = Color.white;
@@ -61,6 +64,12 @@ public class InventoryManager : MonoBehaviour
                 //item.itemCountM.text = item.iitemcount.ToString();
                 item.itemCountM.text = item.iitemcount.ToString() + " / " + item.itemInfo.goalCount.ToString();
                 item.itemCountM.gameObject.SetActive(true);
+                if (_item.itemName == ItemSO.ItemNames.Seed2)
+                {
+                    TaskStatusManager.Instance.CollectItemForTask(1);
+                    Debug.Log(" Collected item no send to TASKSTATUSMNG : " + itemCount);
+
+                }
                 return;
             }
         }
