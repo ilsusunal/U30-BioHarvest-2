@@ -44,10 +44,13 @@ public class InventoryManager : MonoBehaviour
         {
             if (item.itemInfo == _item)
             {
+
                 item.iitemcount++;
+     
                 item.itemCountM.text = item.iitemcount.ToString() + " / " + item.itemInfo.goalCount.ToString();
                 break;
             }
+
             else if (item.itemInfo == null)
             {
                 Color _color = Color.white;
@@ -61,6 +64,12 @@ public class InventoryManager : MonoBehaviour
                 //item.itemCountM.text = item.iitemcount.ToString();
                 item.itemCountM.text = item.iitemcount.ToString() + " / " + item.itemInfo.goalCount.ToString();
                 item.itemCountM.gameObject.SetActive(true);
+                if (_item.itemName == ItemSO.ItemNames.Seed2)
+                {
+                    TaskStatusManager.Instance.CollectItemForTask(1);
+                    Debug.Log(" Collected item no send to TASKSTATUSMNG : " + itemCount);
+
+                }
                 return;
             }
         }
