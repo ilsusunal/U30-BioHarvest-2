@@ -5,10 +5,23 @@ using UnityEngine.UI;
 
 public class HealtyBar : MonoBehaviour
 {
+    public static HealtyBar Instance;
     public float can, animasyonYavasligi;
     private float maxCan;
 
     public Slider healthSlider; // UI Slider referansý
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
@@ -23,6 +36,12 @@ public class HealtyBar : MonoBehaviour
         if (transform.localScale.x > can / maxCan)
         {
             transform.localScale = new Vector3(transform.localScale.x - (transform.localScale.x - can / maxCan) / animasyonYavasligi, transform.localScale.y, transform.localScale.z);
+        }
+
+        if (maxCan != can)
+        {
+            TaskStatusManager.Instance.TakeDamageForTask();
+            Debug.Log("Damage aldý");
         }
 
         // Test amaçlý klavyeden can azaltma

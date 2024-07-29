@@ -41,7 +41,7 @@ public class TaskManager : MonoBehaviour
         miniTaskText2.text = task2Content;
         miniTaskText3.text = task3Content;
         miniTaskBackground1.color = Color.white;
-        miniTaskBackground2.color = Color.white;
+        miniTaskBackground2.color = Color.green;
         miniTaskBackground3.color = Color.white;
     }
 

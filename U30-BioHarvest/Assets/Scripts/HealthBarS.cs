@@ -26,6 +26,11 @@ public class HealthBarS : MonoBehaviour
         {
             AddHealth(10);
         }
+        if(health != maxHealth)
+        {
+            TaskStatusManager.Instance.TakeDamageForTask();
+            Debug.Log("DAMAGE TAKEN MISSION FAIL");
+        }
     }
 
     public void AddHealth(int value)

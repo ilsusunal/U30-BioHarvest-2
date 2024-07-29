@@ -34,7 +34,7 @@ public class TaskStatusManager : MonoBehaviour
         UpdateTaskStatuses();
     }
 
-    public void CollectItemForTask(int itemNo) //Inventory managera þunun eklenmasi lazým:  TaskStatusManager.Instance.CollectItem();
+    public void CollectItemForTask(int itemNo)
     {
         itemsCollected += itemNo;
         Debug.Log(" Collected item no : " + itemsCollected);
@@ -45,7 +45,7 @@ public class TaskStatusManager : MonoBehaviour
         }
     }
 
-    public void TakeDamage() //Healthe þunun eklenmesi lazým: TaskStatusManager.Instance.TakeDamage();
+    public void TakeDamageForTask()
     {
         noDamageTaken = false;
         UpdateTaskStatuses();
