@@ -46,14 +46,8 @@ public class InventoryManager : MonoBehaviour
         {
             if (item.itemInfo == _item)
             {
-
                 item.iitemcount++;
-     
                 item.itemCountM.text = item.iitemcount.ToString() + " / " + item.itemInfo.goalCount.ToString();
-                if(item.itemInfo == Seedd)
-                {
-                    statusManager.CollectItem();
-                }
                 break;
             }
 
