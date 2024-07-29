@@ -41,20 +41,20 @@ public class SidekickAI : MonoBehaviour
 
             if (distanceToTarget <= attackRange)
             {
-                if (Input.GetMouseButtonDown(0))
+                if (distanceToTarget > minFollowDistance && Input.GetMouseButtonDown(0))
                 {
                     AttackTarget();
+                }
+                else if (distanceToTarget <= minFollowDistance)
+                {
+                    // Düþmana çok yaklaþtýysa, geri çekil
+                    MoveAwayFrom(currentTarget.position);
                 }
                 else
                 {
                     MoveTowards(currentTarget.position);
                     animator.SetBool("isAttacking", false);
                 }
-            }
-            else
-            {
-                // Düþman çok yakýnsa geri çekil
-                MoveAwayFrom(currentTarget.position);
             }
         }
         else
