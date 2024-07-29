@@ -21,7 +21,7 @@ public class AstrasMovement : MonoBehaviour
     private bool isGround;
 
     //SES EKLEMESÝ
-    public SoundManager soundManager;
+   // public SoundManager soundManager;
 
     private void Awake()
     {
@@ -47,7 +47,7 @@ public class AstrasMovement : MonoBehaviour
         bool isWalking = astroAnimator.GetBool("isWalk");
         if (isWalking)
         {
-            soundManager.PlayWalkingSound();
+            //soundManager.PlayWalkingSound();
         }
 
         if (horizontalMove == 0 && verticalMove == 0)
