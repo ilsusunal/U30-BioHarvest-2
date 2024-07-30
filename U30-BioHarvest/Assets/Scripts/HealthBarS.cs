@@ -8,6 +8,7 @@ public class HealthBarS : MonoBehaviour
     [SerializeField] Slider healthBar;
     [SerializeField] int maxHealth;
     int health;
+    public bool isDead;
 
     void Start()
     {
@@ -43,6 +44,7 @@ public class HealthBarS : MonoBehaviour
         else if (health < 0)
         {
             health = 0;
+            isDead = true;
         }
 
         healthBar.value = health;
