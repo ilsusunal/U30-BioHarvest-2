@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 interface IInteractable{
     public void Interact();
+    public void ChangeButtonCanvas();
 }
 public class TaskManager : MonoBehaviour
 {
@@ -55,6 +57,7 @@ public class TaskManager : MonoBehaviour
     public void UpdateButtonCanvas(GameObject newButtonCanvas)
     {
         buttonCanvas = newButtonCanvas;
+        
     }
 
     //Ek görevler panelinin açýlmasý
@@ -78,16 +81,20 @@ public class TaskManager : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hitInfo, interactRange, interactableLayer))
         {
             //Debug.Log("Raycast hit: " + hitInfo.collider.gameObject.name);
-            //Debug.Log("ButtonCanvas active? " + buttonCanvas.activeSelf);
+            //Debug.Log("ButtonCanvas active? before " + buttonCanvas.activeSelf);
 
 
-            if (!buttonCanvas.activeSelf)
-            {
-                buttonCanvas.SetActive(true);
-            }
+            
 
             if (hitInfo.collider.TryGetComponent<IInteractable>(out IInteractable interactable))
             {
+                interactable.ChangeButtonCanvas();
+                if (!buttonCanvas.activeSelf)
+                {
+                    buttonCanvas.SetActive(true);
+                    //Debug.Log("ButtonCanvas active? after" + buttonCanvas.activeSelf); 
+                    Debug.Log("Active ButtonCanvas name : " + buttonCanvas.gameObject.name);
+                }
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactable.Interact();
