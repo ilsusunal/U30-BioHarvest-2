@@ -12,6 +12,10 @@ public class CheckPointControl : MonoBehaviour
 
     [SerializeField] HealthBarS healthBarS;
 
+    private void Awake()
+    {
+        healthBarS.isDead = false;
+    }
     private void Update()
     {
         if(healthBarS.isDead == true)
