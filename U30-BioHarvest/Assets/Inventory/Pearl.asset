@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Pearl
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 6686cde997dbc9943894229f892c90eb, type: 3}
-  itemName: 4
+  itemName: 3
   goalCount: 1

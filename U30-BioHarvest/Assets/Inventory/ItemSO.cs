@@ -13,9 +13,10 @@ public class ItemSO : ScriptableObject
     {
         Seed,
         Seed2,
-        Seed3,
         SeaShell,
         Pearl,
-        LifeCrytal
+        Slime,
+        LifeCrytal,
+        Seed3
     }
 }

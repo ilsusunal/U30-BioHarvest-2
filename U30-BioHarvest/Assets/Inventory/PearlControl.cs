@@ -6,28 +6,30 @@ public class PearlControl : MonoBehaviour
 {
     [SerializeField] GameObject pearlOnStand;
     bool isSeePlayer;
-
+    [SerializeField] Animator Blackanimator;
     private void Awake()
     {
         pearlOnStand.SetActive(false);
     }
-
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && (isSeePlayer))
-        {
-            if (InventoryManager.Instance.itemToUse.itemName == ItemSO.ItemNames.Pearl) //buraya standý görmeyi kontrol et
+            if (Input.GetKeyDown(KeyCode.F) && (isSeePlayer))
             {
-                InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
-                pearlOnStand.SetActive(true);
+                if (InventoryManager.Instance.itemToUse.itemName == ItemSO.ItemNames.Pearl) 
+                {
+                    InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
+                    pearlOnStand.SetActive(true);
+                    Blackanimator.SetTrigger("Completed");
+                }
             }
-        }
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             isSeePlayer = true;
+            //Debug.Log("görüyom");
         }
     }
+
 }

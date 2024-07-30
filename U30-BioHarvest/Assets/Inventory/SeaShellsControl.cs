@@ -10,6 +10,7 @@ public class SeaShellsControl : MonoBehaviour
     private int currentIndex = 0;
     private int pressCount = 0;
     public bool completedShellsMis;
+    [SerializeField] Animator Pinkanimator;
 
     private void Update()
     {
@@ -17,7 +18,6 @@ public class SeaShellsControl : MonoBehaviour
         {
             if (InventoryManager.Instance.itemToUse.itemName == ItemSO.ItemNames.SeaShell)
             {
-                InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
                 InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
                 pressCount++;
                 GameObject gameObject = SeaShells[currentIndex];
@@ -28,6 +28,7 @@ public class SeaShellsControl : MonoBehaviour
         if (pressCount == 10)
         {
             completedShellsMis = true;
+            Pinkanimator.SetTrigger("Completed");
         }
     }
     private void OnTriggerEnter(Collider other)

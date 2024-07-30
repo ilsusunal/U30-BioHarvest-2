@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SeaShell
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 393dae9b4559fa546ae3fa7b9a7c96ed, type: 3}
-  itemName: 3
+  itemName: 2
   goalCount: 10
