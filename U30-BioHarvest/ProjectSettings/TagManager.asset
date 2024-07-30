@@ -10,6 +10,7 @@ TagManager:
   - Water
   - Interactable
   - Enemy
+  - Point
   layers:
   - Default
   - TransparentFX
