@@ -11,6 +11,8 @@ public class RocketControl : MonoBehaviour
     [SerializeField] GameObject LifeCrystal;
     [SerializeField] GameObject QBee;
 
+    //public SceneChanger sceneChanger;
+
     private void Awake()
     {
         Seed.SetActive(false);
@@ -25,6 +27,14 @@ public class RocketControl : MonoBehaviour
             {
                 InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
                 Seed.SetActive(true);
+                //sceneChanger.OpenCanvas();
+                    //OpenCanvas(){
+                    //SceneChangePanel.SetActive(true)
+                    //if (Input.GetKeyDown(KeyCode.E))
+                    //{
+                    //LoadScene
+                    //}
+                    //}
             }
         }
         if (sitAstra.activeSelf && Input.GetKeyDown(KeyCode.F))
@@ -33,6 +43,7 @@ public class RocketControl : MonoBehaviour
             {
                 InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
                 LifeCrystal.SetActive(true);
+                //sceneChanger.OpenCanvas();
             }
         }
         if (sitAstra.activeSelf && Input.GetKeyDown(KeyCode.F))
@@ -41,6 +52,7 @@ public class RocketControl : MonoBehaviour
             {
                 InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
                 QBee.SetActive(true);
+                //sceneChanger.OpenCanvas();
             }
         }
     }
