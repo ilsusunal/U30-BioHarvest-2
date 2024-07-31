@@ -9,14 +9,19 @@ public class CameraSwitch : MonoBehaviour
 
     private bool hasTriggeredAnimation = false; // Animasyonun bir kez tetiklenip tetiklenmediðini kontrol eder
 
+    void Start()
+    {
+        // Baþlangýçta sadece playerCamera aktif olsun
+        playerCamera.enabled = true;
+        panelCamera.enabled = false;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            playerCamera.enabled = false;
-            panelCamera.enabled = true;
-
-            // Kapý animasyonunu baþlat
+            Debug.Log("Player triggera girdi.");
+            SwitchToPanelCamera();
             StartDoorAnimation();
         }
     }
@@ -25,9 +30,21 @@ public class CameraSwitch : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerCamera.enabled = true;
-            panelCamera.enabled = false;
+            Debug.Log("Player triggerdan çýktý.");
+            SwitchToPlayerCamera();
         }
+    }
+
+    private void SwitchToPanelCamera()
+    {
+        playerCamera.enabled = false;
+        panelCamera.enabled = true;
+    }
+
+    private void SwitchToPlayerCamera()
+    {
+        playerCamera.enabled = true;
+        panelCamera.enabled = false;
     }
 
     // Kapý animasyonunu baþlat
@@ -35,6 +52,7 @@ public class CameraSwitch : MonoBehaviour
     {
         if (!hasTriggeredAnimation && doorAnimator != null)
         {
+            Debug.Log("Kapý animasyonu baþlatýlýyor.");
             doorAnimator.SetTrigger(openDoorTriggerName);
             hasTriggeredAnimation = true; // Animasyonun sadece bir kez tetiklenmesini saðlar
         }
