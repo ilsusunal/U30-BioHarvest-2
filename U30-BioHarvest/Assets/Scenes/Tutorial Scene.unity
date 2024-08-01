@@ -12661,7 +12661,7 @@ PrefabInstance:
         type: 3}
       propertyPath: rocketCam
       value: 
-      objectReference: {fileID: 785355725}
+      objectReference: {fileID: 1850449795}
     - target: {fileID: 2932128183879303048, guid: ac086b593b4677f49a1a6c6b1dafdceb,
         type: 3}
       propertyPath: originalAstra
@@ -16497,12 +16497,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39b9cbe654535304ab6ccb60b7ee8cd7,
     type: 3}
   m_PrefabInstance: {fileID: 783391146}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &785355725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 796578985722750608, guid: 9b5338be9c705744ebd279fd3571159a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1528764845}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &786212488
 GameObject:
@@ -29377,79 +29371,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6028daf116f08c645af940a58654a7ef, type: 3}
---- !u!1001 &1528764845
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 672.4759
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.2097397
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 244.8609
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651674999494453656, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 796578985722750608, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_Name
-      value: AstraSit
-      objectReference: {fileID: 0}
-    - target: {fileID: 796578985722750608, guid: 9b5338be9c705744ebd279fd3571159a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9b5338be9c705744ebd279fd3571159a, type: 3}
 --- !u!4 &1530864556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4103333903944158, guid: 1a365141225c22e49a7bb976869b22a8,
@@ -31370,6 +31291,7 @@ GameObject:
   - component: {fileID: 1636601299}
   - component: {fileID: 1636601301}
   - component: {fileID: 1636601300}
+  - component: {fileID: 1636601302}
   m_Layer: 5
   m_Name: Mini Task3
   m_TagString: Untagged
@@ -31435,6 +31357,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636601298}
   m_CullTransparentMesh: 1
+--- !u!114 &1636601302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636601298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450dd41348cdc5b4584aef3ff9485ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AstraSit: {fileID: 1850449795}
+  uiImage: {fileID: 1636601300}
 --- !u!1001 &1637991220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35539,6 +35475,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39b9cbe654535304ab6ccb60b7ee8cd7,
     type: 3}
   m_PrefabInstance: {fileID: 1753680514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1850449795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6066532790095108126, guid: ac086b593b4677f49a1a6c6b1dafdceb,
+    type: 3}
+  m_PrefabInstance: {fileID: 625925773}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1853603338
 GameObject:
@@ -41658,7 +41600,6 @@ SceneRoots:
   - {fileID: 625925773}
   - {fileID: 1190003768}
   - {fileID: 413613354}
-  - {fileID: 1528764845}
   - {fileID: 1619972257}
   - {fileID: 1770774610}
   - {fileID: 1848758231}
