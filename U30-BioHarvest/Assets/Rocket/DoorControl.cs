@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
+//using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.Windows.WebCam;
-using static UnityEditor.Progress;
+//using static UnityEditor.Progress;
 
 public class DoorControl : MonoBehaviour
 {

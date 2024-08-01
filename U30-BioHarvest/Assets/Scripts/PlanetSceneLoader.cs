@@ -3,7 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class PlanetSceneLoader : MonoBehaviour
 {
-
+    private void Awake()
+    {
+        Cursor.visible = true;
+    }
     // Bu metodu butonun OnClick() eventi ile çaðýrabilirsiniz
     public void goTutorialScene()
     {
