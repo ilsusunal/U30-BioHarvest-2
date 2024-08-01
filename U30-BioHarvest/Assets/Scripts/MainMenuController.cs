@@ -15,7 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
     public void LoadTutorial()
     {
-        SceneManager.LoadScene("TutorialScene");
+        SceneManager.LoadScene("Tutorial Scene");
     }
 
     //Takim ve oyun hakkinda sahnesi - ABOUT butonu icin
