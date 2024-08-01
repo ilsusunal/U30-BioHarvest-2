@@ -5,27 +5,27 @@
 ## Takım Üyeleri
 <table>
     <tr>
-      <th></th>
+      <th>Fotoğraf</th>
       <th>Ad Soyad</th>
       <th>Görev</th>
-      <th>Linkedin</th>
+      <th>Github/Linkedin</th>
     </tr>
     <tr>
       <td><img src="Foto%C4%9Fraflar/hilal.jpeg" width="50" height="50" /></td>
       <td>Hilal Korkusuz</td>
       <td>Scrum Master</td>
       <td>
-        <a href="https://github.com/HilalKorkusuz" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/hilal-korkusuz-404039237//" target="_blank" ><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/HilalKorkusuz" target="_blank"><img src="Foto%C4%9Fraflar/github.png" width="30" height="30"/></a>
+        <a href="https://www.linkedin.com/in/hilal-korkusuz-404039237//" target="_blank" ><img src="Foto%C4%9Fraflar/linkedin.png" width="30" height="30" /></a>
       </td>
     </tr>
     <tr>
-      <td><img src="bootcampFiles/general/squarepics/arda.png" width="50" height="50" /></td>
+      <td><img src="Foto%C4%9Fraflar/safa.jpg" width="50" height="50" /></td>
       <td>İbrahim Safa Uysal </td>
       <td>Product Owner</td>
       <td>
-        <a href="https://github.com/isulduristaken" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/ibrahim-safa-uysal-250139167/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/isulduristaken" target="_blank"><img src="Foto%C4%9Fraflar/github.png" width="30" height="30"/></a>
+        <a href="https://www.linkedin.com/in/ibrahim-safa-uysal-250139167/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="30" height="30" /></a>
       </td>
     </tr>
     <tr>
@@ -33,17 +33,17 @@
       <td>Hamza Sıvacı</td>
       <td>Developer</td>
       <td>
-        <a href="https://github.com/hmzsvc" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/hamza-s%C4%B1vac%C4%B1-94a140205/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/hmzsvc" target="_blank"><img src="Foto%C4%9Fraflar/github.png" width="30" height="30"/></a>
+        <a href="https://www.linkedin.com/in/hamza-s%C4%B1vac%C4%B1-94a140205/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="30" height="30" /></a>
       </td>
     </tr>
     <tr>
-      <td><img src="bootcampFiles/general/squarepics/merve.png" width="50" height="50" /></td>
+      <td><img src="Foto%C4%9Fraflar/hasan.jpeg" width="50" height="50" /></td>
       <td>Hasan Demirtaş</td>
       <td>Developer</td>
       <td>
-        <a href="https://github.com/Tamu35" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/hasandemirta%C5%9F/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/Tamu35" target="_blank"><img src="Foto%C4%9Fraflar/github.png" width="30" height="30"/></a>
+        <a href="https://www.linkedin.com/in/hasandemirta%C5%9F/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="30" height="30" /></a>
       </td>
     </tr>
     <tr>
@@ -51,34 +51,37 @@
       <td>İlsu Sunal</td>
       <td>Developer</td>
       <td>
-        <a href="https://github.com/ilsusunal" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
-        <a href="https://www.linkedin.com/in/ilsu-sunal/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/ilsusunal" target="_blank"><img src="Foto%C4%9Fraflar/github.png" width="30" height="30"/></a>
+        <a href="https://www.linkedin.com/in/ilsu-sunal/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="30" height="30" /></a>
       </td>
     </tr>
   </tr>
   </table>
----
 
 # Ürün İle İlgili Bilgiler
 
 ## Ürün İsmi
 
-Bio Harvest
+BioHarvest
 
 ## Ürün Açıklaması
-- BioHarvest; macera, platform ve bulmaca oyunudur.
+- BioHarvest; 3d, macera, platform ve bulmaca oyunudur.
 
 ## Ürün Hikayesi
 - Küresel ısınmanın etkisiyle Dünya, bir çöl gezegenine dönmüş ve yaşanamaz hale gelmiştir. İnsanlar; gezegeni tamamen terk etmeden önce, Dünya'yı eski haline döndürme umuduyla birçok robotu programlar ve geride bırakırlar. Yıllar sonra, robotların çoğu bozulmuş ve görevlerini tamamlayamamıştır. Fakat umutsuzluğa yer yok, çünkü hayatta kalan tek robot olan Astra var!
 Robot Astra ile farklı gezegenleri keşfedin, çeşitli zorlukları ve bulmacaları çözün ve Dünya’ya tekrar yaşamı getirin. #adventure #3dplatformer #puzzle.
 
-## Zengin Hikaye
-Bölüm 1: Yaşamın Kayıp Parçası: Dünya'yı kurtarmak için yola çıkan Astra, gezegenin özünün kayıp olduğunu keşfeder. Bu kayıp özü bulmak için uzayın derinliklerine doğru bir yolculuğa çıkar.
-Bölüm 2: Umut Tohumları: Astra'nın arayışı, Dünya'yı yeniden yeşertebilecek kaynakların bulunmasıyla umut doğurur. Ancak bu uzay yaşam formları, zorlu Dünya şartlarına uyum sağlayabilecek mi?
-Bölüm 3: Geçmişin Gölgesinde: Dış gezegenlerden getirilen kaynaklar sayesinde doğa canlanmaya başlar. Astra'nın aklını kurcalayan bir soru ise cevabını arar: Geçmişte Dünya'da neler yaşandı? Robot, kayıp cevapları bulmak için unutulmuş kalıntıları araştırır.
-Bölüm 4: Yeniden Doğuş: Dünya, yeniden bitki örtüsüyle kaplanır ve canlılarla dolup taşar. Fakat bu yenilenmiş dünyada kimler yaşayacak? Astra, insanları Dünya'ya geri getirmek mi yoksa yıldızlar arasında yeni bir yolculuğa mı çıkmak zorunda kalacak?
-Bölüm 5: Yeni Bir Ufuk: Canlanan Dünya'nın yeni ekosistemini şekillendirmek Astra'nın görevidir. Robotun uzmanlığı ve kararlılığı, Dünya'yı daha parlak bir geleceğe taşıyacaktır.
-Bölüm 6: Bedel Zamanı: Astra, Dünya'daki görevini tamamlasa da diğer gezegenlerden toplanan kaynakların sonuçlarıyla yüzleşmek zorundadır. Kararlarının yarattığı etkileri düzeltmek için harekete geçer.
+<details>
+  <summary><h3>Zengin Hikayesi</h3></summary>
+    
+- Bölüm 1: Yaşamın Kayıp Parçası: Dünya'yı kurtarmak için yola çıkan Astra, gezegenin özünün kayıp olduğunu keşfeder. Bu kayıp özü bulmak için uzayın derinliklerine doğru bir yolculuğa çıkar.
+- Bölüm 2: Umut Tohumları: Astra'nın arayışı, Dünya'yı yeniden yeşertebilecek kaynakların bulunmasıyla umut doğurur. Ancak bu uzay yaşam formları, zorlu Dünya şartlarına uyum sağlayabilecek mi?
+- Bölüm 3: Geçmişin Gölgesinde: Dış gezegenlerden getirilen kaynaklar sayesinde doğa canlanmaya başlar. Astra'nın aklını kurcalayan bir soru ise cevabını arar: Geçmişte Dünya'da neler yaşandı? Robot, kayıp cevapları bulmak için unutulmuş kalıntıları araştırır.
+- Bölüm 4: Yeniden Doğuş: Dünya, yeniden bitki örtüsüyle kaplanır ve canlılarla dolup taşar. Fakat bu yenilenmiş dünyada kimler yaşayacak? Astra, insanları Dünya'ya geri getirmek mi yoksa yıldızlar arasında yeni bir yolculuğa mı çıkmak zorunda kalacak?
+- Bölüm 5: Yeni Bir Ufuk: Canlanan Dünya'nın yeni ekosistemini şekillendirmek Astra'nın görevidir. Robotun uzmanlığı ve kararlılığı, Dünya'yı daha parlak bir geleceğe taşıyacaktır.
+- Bölüm 6: Bedel Zamanı: Astra, Dünya'daki görevini tamamlasa da diğer gezegenlerden toplanan kaynakların sonuçlarıyla yüzleşmek zorundadır. Kararlarının yarattığı etkileri düzeltmek için harekete geçer.
+  </details>
+---
 
 ## Ürün Özellikleri
 
