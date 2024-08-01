@@ -1,6 +1,9 @@
-# **Takım İsmi**
+# **Takım İsmi** = 5pace
 
-5pace
+![5pace logo](https://github.com/user-attachments/assets/f2cd15e1-e9f6-4761-bd71-9eefe25a7f5a)
+![team5pace](https://github.com/user-attachments/assets/48cff510-0d9d-4f5c-a4cf-5165c2429446)
+
+
 
 ## Takım Üyeleri
 <table>
@@ -29,7 +32,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="bootcampFiles/general/squarepics/hazal.png" width="50" height="50" /></td>
+      <td><img src="Foto%C4%9Fraflar/hamza.jpeg" width="50" height="50" /></td>
       <td>Hamza Sıvacı</td>
       <td>Developer</td>
       <td>
@@ -47,7 +50,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="bootcampFiles/general/squarepics/onur.png" width="50" height="50" /></td>
+      <td><img src="Foto%C4%9Fraflar/ilsu.png" width="50" height="50" /></td>
       <td>İlsu Sunal</td>
       <td>Developer</td>
       <td>
@@ -203,5 +206,43 @@ Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 
   <details>
     <summary><h1>Sprint 3</h1></summary>
-doldurulacak
+- **Sprint Notları**: Üçüncü ve son sprintte 
+
+- **Tamamlanması tahmin edilen puan**: 120
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 390 puanlık backlog bulunmaktadır. 390 puan, 3 sprint'e bölündüğünde ilk sprint 130 puanlık görevin bitirilmesine karar verildi. 
+
+- **Sprint board update**:
+
+![sprint3 1](https://github.com/user-attachments/assets/12d4cd3f-6bbb-4abc-8b35-55bd028b442b)
+![sprint3 2](https://github.com/user-attachments/assets/8168e5d3-64dc-44f3-bf37-5a05f73942a9)
+
+
+- **Daily Scrum**: Daily Scrum toplantılarının WhatsApp ve Discord üzerinden yapılmasına karar verildi. Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
+[https://drive.google.com/drive/folders/1JRDM9yzrAPuiW-DcI3KsRh6BD5mtchVU](https://drive.google.com/drive/folders/1E6P67_EpZ9Xpe8zy_bnVc-8Yp9io10Rj)
+
+- **Haftalık Toplantıdan Görsel**:
+![team](https://github.com/user-attachments/assets/0fa8a0c4-65e6-4745-bc00-d805feb2a1c7)
+
+
+- **Ürün Durumu**: Ekran görüntüleri
+![1](https://github.com/ilsusunal/ilsusunal/assets/148697098/220082af-7eed-4491-a2ef-8c47c8876832)
+![water](https://github.com/ilsusunal/ilsusunal/assets/148697098/6c38aea4-27b8-4ea3-bfb6-a617841b5ed6)
+![jungle](https://github.com/ilsusunal/ilsusunal/assets/148697098/d99fd26e-68c5-42a0-9dfc-adb992a197cb)
+
+- **Sprint Review**: Alınan kararlar
+  - Haftada iki toplantı yapılmasına karar verildi. Bu toplantılarda herkes ne yaptığını paylaştı ve projenin durumu konuşuldu.
+  - 3D, platform, puzle oyunu yapılmasına karar verildi.
+  - Proje'de Unity  2022.3.34f1 sürümünde URP olarak oluşturuldu.
+  - İlk iki haritanın çevre tasarımı bitirildi.
+  - İlk sprintte başlangıç ekranın tasarlanmasına karar verildi. Ve gerçekleştirildi.
+Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
+
+- **Sprint Retrospective:** Alınan kararlar
+  - Karakterin hareket animasyonları ve mekanikleri eklendi. Fakat birkaç sorundan dolayı ikinci sprintte iyileştirilecek.
+  - Map üzerindeki platformlara mekanikler eklenmiştir.
+  - İlk sprintte hedeflenen 130 puana ulaşıldı.
+  - Puanlama sisteminin iyileştirilmesine karar verildi.
+  - İkinci sprintte yeni mekaniklere karar verilecek.
+Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
