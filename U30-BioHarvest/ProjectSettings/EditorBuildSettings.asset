@@ -15,6 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/SpaceMissionMenu.unity
     guid: 0280d19ab0f4b8f459534a06ae3bd78b
   - enabled: 1
+    path: Assets/Scenes/Tutorial Scene.unity
+    guid: 3c897c2ce988ee344b3243b832d0149e
+  - enabled: 1
+    path: Assets/Scenes/Jungle Mission.unity
+    guid: bfad25a0062be864f8c76dd1f9ed8424
+  - enabled: 1
+    path: Assets/Scenes/Water Mission.unity
+    guid: ca7cb5b673b09224fa021d1015806834
+  - enabled: 1
+    path: Assets/Scenes/Mountain Mission.unity
+    guid: 3c6198bcf000fdf4c99f047399322747
+  - enabled: 1
     path: Assets/Scenes/AboutTeamSecene.unity
     guid: cfc0af394febb324897ec21e6bfbcebb
   m_configObjects: {}

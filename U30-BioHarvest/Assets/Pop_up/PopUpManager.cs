@@ -15,6 +15,7 @@ public class PopUpManager : MonoBehaviour
 
     void Update()
     {
+        // Sol fare tuþuna basýldýðýnda ve týklanan nesne "Interactable" tag'ine sahipse popup göster
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -27,15 +28,13 @@ public class PopUpManager : MonoBehaviour
                 {
                     ShowPopUp(hit.transform.gameObject);
                 }
-                else
-                {
-                    HidePopUp();
-                }
             }
-            else
-            {
-                HidePopUp();
-            }
+        }
+
+        // ESC tuþuna basýldýðýnda popup'ý gizle
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            HidePopUp();
         }
     }
 
@@ -58,12 +57,6 @@ public class PopUpManager : MonoBehaviour
                 currentPopUpPanel = popUpPanelTransform.gameObject;
                 currentPopUpPanel.SetActive(true);
             }
-            else
-            {
-            }
-        }
-        else
-        {
         }
     }
 

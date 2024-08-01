@@ -16,29 +16,10 @@ public class CameraSwitcher : MonoBehaviour
 
     private void Update()
     {
-        // Boþ bir alana týklanýp týklanmadýðýný kontrol et
-        if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
+        // ESC tuþuna basýldýðýnda ana kameraya geçiþ yap
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.transform.gameObject.CompareTag("Interactable"))
-                {
-                    // Gezegen týklanmýþsa, hiçbir þey yapma
-                    return;
-                }
-                else
-                {
-                    // Gezegen olmayan bir þeye týklanmýþsa, ana kameraya geçiþ yap
-                    SwitchCamera(mainCamera);
-                }
-            }
-            else
-            {
-                // Eðer herhangi bir gezegen veya UI'ya týklanmadýysa, ana kameraya geçiþ yap
-                SwitchCamera(mainCamera);
-            }
+            SwitchCamera(mainCamera);
         }
     }
 
@@ -57,21 +38,5 @@ public class CameraSwitcher : MonoBehaviour
     {
         camera.Priority = priority;
         camera.gameObject.SetActive(priority > 0);
-    }
-
-    private bool IsPointerOverUIObject()
-    {
-        // EventSystem'in sahnede olup olmadýðýný kontrol et
-        if (EventSystem.current == null)
-        {
-            return false;
-        }
-
-        // Canvas üzerindeki UI elementlerine týklanýp týklanmadýðýný kontrol et
-        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
-        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
-        return results.Count > 0;
     }
 }
