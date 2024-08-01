@@ -49,5 +49,14 @@ public class RocketControl : MonoBehaviour
                 sceneChanger.OpenCanvas();
             }
         }
+        if (sitAstra.activeSelf && Input.GetKeyDown(KeyCode.F))
+        {
+            if (InventoryManager.Instance.itemToUse.itemName == ItemSO.ItemNames.Plant007)
+            {
+                InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
+                QBee.SetActive(true);
+                sceneChanger.OpenCanvas();
+            }
+        }
     }
 }
