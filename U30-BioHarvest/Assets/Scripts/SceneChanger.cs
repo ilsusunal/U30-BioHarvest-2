@@ -1,16 +1,25 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RocketTrigger : MonoBehaviour
+public class SceneChanger : MonoBehaviour
 {
     public string playerTag = "Player"; // Oyuncu objesinin tag'i
+    public GameObject panel;
 
-    void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        // Eðer çarpan obje oyuncu ise
-        if (other.CompareTag(playerTag))
+        panel.SetActive(false);
+    }
+    public void OpenCanvas()
+    {
+        panel.SetActive(true);
+    }
+
+    private void Update()
+    {
+        if (panel.activeSelf && Input.GetKeyDown(KeyCode.G))
         {
-            // SpaceMissionMenu sahnesine geç
+            Debug.Log("sahne deðiþtir");
             SceneManager.LoadScene("SpaceMissionMenu");
         }
     }

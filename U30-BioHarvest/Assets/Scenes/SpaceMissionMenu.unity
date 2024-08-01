@@ -323,6 +323,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 751293909}
     m_Modifications:
+    - target: {fileID: 317789785580109125, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_BlockingObjects
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 317789785580109125, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_IgnoreReversedGraphics
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 695456053322516346, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1511,6 +1521,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planetCamera: {fileID: 801124047}
+--- !u!114 &751293914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751293900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c49e48bf6f4f1449cbfd6078037af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planets:
+  - sceneName: Tutorial Scene
+    planetCanvas: {fileID: 1953044286}
+    planetButton: {fileID: 1499445311}
+  - sceneName: Jungle Mission
+    planetCanvas: {fileID: 948069759}
+    planetButton: {fileID: 1200192305}
+  - sceneName: Water Mission
+    planetCanvas: {fileID: 611702446}
+    planetButton: {fileID: 2102238801}
+  - sceneName: Mountain Mission
+    planetCanvas: {fileID: 1300275544}
+    planetButton: {fileID: 1426639992}
 --- !u!1 &801124045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,6 +1690,65 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 2028158651}
+--- !u!1 &854524289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 854524291}
+  - component: {fileID: 854524290}
+  m_Layer: 0
+  m_Name: Dolly Track
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &854524290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854524289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a200b19ca1a9685429ed7e043c28e904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Resolution: 20
+  m_Appearance:
+    pathColor: {r: 0, g: 1, b: 0, a: 1}
+    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    width: 0.2
+  m_Looped: 0
+  m_Waypoints:
+  - position: {x: 0, y: 0, z: -8.285156}
+    roll: 0
+  - position: {x: 46.816406, y: -15.369751, z: 115.91699}
+    roll: 0
+  - position: {x: 222.4353, y: -40.182495, z: 672.0054}
+    roll: 0
+  - position: {x: 2524.5088, y: -1033.7522, z: 6328.5474}
+    roll: 0
+--- !u!4 &854524291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854524289}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2817.1755, y: 1200.2228, z: -7041.3965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870131724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +1821,138 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 330295504}
+--- !u!1 &911978158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911978159}
+  m_Layer: 0
+  m_Name: CutSceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911978159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911978158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -453.53934, y: 305.8287, z: -435.87787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &930464062
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930464063}
+  - component: {fileID: 930464066}
+  - component: {fileID: 930464065}
+  - component: {fileID: 930464064}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930464063
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930464062}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1460765276}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930464064
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930464062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418e42c7d0405cc48a7b83f63ea53bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Path: {fileID: 854524290}
+  m_PathPosition: 0
+  m_PositionUnits: 0
+  m_PathOffset: {x: 0, y: 0, z: 0}
+  m_XDamping: 0
+  m_YDamping: 0
+  m_ZDamping: 1
+  m_CameraUp: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AutoDolly:
+    m_Enabled: 0
+    m_PositionOffset: 0
+    m_SearchRadius: 2
+    m_SearchResolution: 5
+--- !u!114 &930464065
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930464062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0
+  m_LookaheadSmoothing: 0
+  m_LookaheadIgnoreY: 0
+  m_HorizontalDamping: 0.5
+  m_VerticalDamping: 0.5
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
+  m_SoftZoneWidth: 0.8
+  m_SoftZoneHeight: 0.8
+  m_BiasX: 0
+  m_BiasY: 0
+  m_CenterOnActivate: 1
+--- !u!114 &930464066
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930464062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &948069755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3515,6 +3741,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445411447}
   m_CullTransparentMesh: 1
+--- !u!1 &1460765274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460765276}
+  - component: {fileID: 1460765275}
+  m_Layer: 0
+  m_Name: Virtual Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1460765275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460765274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 0}
+  m_Lens:
+    FieldOfView: 60.000004
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    LensShift: {x: 0, y: 0}
+    GateFit: 2
+    FocusDistance: 10
+    m_SensorSize: {x: 1, y: 1}
+  m_Transitions:
+    m_BlendHint: 0
+    m_InheritPosition: 0
+    m_OnCameraLive:
+      m_PersistentCalls:
+        m_Calls: []
+  m_LegacyBlendHint: 0
+  m_ComponentOwner: {fileID: 930464063}
+--- !u!4 &1460765276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460765274}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.12847748, y: -0.1711355, z: 0.022531183, w: -0.97657496}
+  m_LocalPosition: {x: -2970.1765, y: 1320.7029, z: -7464.542}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 930464063}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1499445309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,13 +4190,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792631827}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.124651715, y: -0.6344946, z: -0.015657615, w: 0.762649}
-  m_LocalPosition: {x: 5017, y: -992, z: 2257}
+  m_LocalRotation: {x: 0.07068634, y: 0.15249461, z: -0.10385884, w: 0.9802868}
+  m_LocalPosition: {x: -2961, y: 1014, z: -6290}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1288827523}
-  m_LocalEulerAnglesHint: {x: 9.803, y: -80.434, z: -10.647}
+  m_LocalEulerAnglesHint: {x: 9.803, y: 16.769, z: -10.647}
 --- !u!199 &1792631829
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -9518,6 +9816,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 751293913}
+    - targetCorrespondingSourceObject: {fileID: 5777149649318931088, guid: c1461ba6a33ce7c4aa3561c8bdc06c41,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 751293914}
   m_SourcePrefab: {fileID: 100100000, guid: c1461ba6a33ce7c4aa3561c8bdc06c41, type: 3}
 --- !u!1001 &3820795768797125055
 PrefabInstance:
@@ -9603,6 +9905,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 395063479}
+    - targetCorrespondingSourceObject: {fileID: 519908584540463448, guid: 2df97d341fdf3f84794b4a644649e34a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3820795768797125057}
   m_SourcePrefab: {fileID: 100100000, guid: 2df97d341fdf3f84794b4a644649e34a, type: 3}
 --- !u!4 &3820795768797125056 stripped
 Transform:
@@ -9610,6 +9916,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3820795768797125055}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3820795768797125057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395063473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c49e48bf6f4f1449cbfd6078037af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planets:
+  - sceneName: Tutorial Scene
+    planetCanvas: {fileID: 1953044286}
+    planetButton: {fileID: 1499445311}
+  - sceneName: Jungle Mission
+    planetCanvas: {fileID: 948069759}
+    planetButton: {fileID: 1200192305}
+  - sceneName: Water Mission
+    planetCanvas: {fileID: 611702446}
+    planetButton: {fileID: 2102238801}
+  - sceneName: Mountain Mission
+    planetCanvas: {fileID: 1300275544}
+    planetButton: {fileID: 1426639992}
 --- !u!1001 &5614192652987290286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9694,6 +10025,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2045957338}
+    - targetCorrespondingSourceObject: {fileID: 9082432975359638842, guid: 4aaecb83d9bc2e54d909e4efda1946e4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5614192652987290288}
   m_SourcePrefab: {fileID: 100100000, guid: 4aaecb83d9bc2e54d909e4efda1946e4, type: 3}
 --- !u!4 &5614192652987290287 stripped
 Transform:
@@ -9701,6 +10036,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5614192652987290286}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5614192652987290288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045957328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c49e48bf6f4f1449cbfd6078037af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planets:
+  - sceneName: Tutorial Scene
+    planetCanvas: {fileID: 1953044286}
+    planetButton: {fileID: 1499445311}
+  - sceneName: Jungle Mission
+    planetCanvas: {fileID: 948069759}
+    planetButton: {fileID: 1200192305}
+  - sceneName: Water Mission
+    planetCanvas: {fileID: 611702446}
+    planetButton: {fileID: 2102238801}
+  - sceneName: Mountain Mission
+    planetCanvas: {fileID: 1300275544}
+    planetButton: {fileID: 1426639992}
 --- !u!1001 &6272535921431693346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9785,6 +10145,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 156569696}
+    - targetCorrespondingSourceObject: {fileID: 6590411536517505055, guid: b0d2eac3b8a08ef47bc70a7a222569e8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6272535921431693348}
   m_SourcePrefab: {fileID: 100100000, guid: b0d2eac3b8a08ef47bc70a7a222569e8, type: 3}
 --- !u!4 &6272535921431693347 stripped
 Transform:
@@ -9792,6 +10156,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6272535921431693346}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6272535921431693348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156569686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c49e48bf6f4f1449cbfd6078037af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planets:
+  - sceneName: Tutorial Scene
+    planetCanvas: {fileID: 1953044286}
+    planetButton: {fileID: 1499445311}
+  - sceneName: Jungle Mission
+    planetCanvas: {fileID: 948069759}
+    planetButton: {fileID: 1200192305}
+  - sceneName: Water Mission
+    planetCanvas: {fileID: 611702446}
+    planetButton: {fileID: 2102238801}
+  - sceneName: Mountain Mission
+    planetCanvas: {fileID: 1300275544}
+    planetButton: {fileID: 1426639992}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -9809,3 +10198,6 @@ SceneRoots:
   - {fileID: 65621840}
   - {fileID: 511767141}
   - {fileID: 419602264}
+  - {fileID: 854524291}
+  - {fileID: 1460765276}
+  - {fileID: 911978159}
