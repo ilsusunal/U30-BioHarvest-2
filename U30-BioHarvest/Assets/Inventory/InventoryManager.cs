@@ -70,7 +70,12 @@ public class InventoryManager : MonoBehaviour
                     Debug.Log(" Collected item no send to TASKSTATUSMNG : " + itemCount);
 
                 }
-                return;
+                if (_item.itemName == ItemSO.ItemNames.Plant007)
+                {
+                    TaskStatusManager.Instance.CollectItemForTask(1);
+                    Debug.Log(" Collected item no send to TASKSTATUSMNG FLOWER007 : " + itemCount);
+                }
+                    return;
             }
         }
     }

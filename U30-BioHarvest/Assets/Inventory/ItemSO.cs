@@ -18,6 +18,7 @@ public class ItemSO : ScriptableObject
         Slime,
         LifeCrytal,
         Seed3,
-        Queen
+        Queen,
+        Plant007
     }
 }
