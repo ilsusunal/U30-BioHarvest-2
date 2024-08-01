@@ -68,9 +68,7 @@ public class TaskManager : MonoBehaviour
     }
     public void CompleteTask(TextMeshProUGUI taskText, Image taskBackground)
     {
-        taskText.color = Color.gray;
         taskBackground.color = Color.green;
-        taskText.fontStyle = FontStyles.Strikethrough;
     }
 
     void Update()
