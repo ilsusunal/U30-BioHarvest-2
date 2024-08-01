@@ -10,8 +10,9 @@ public class BeeAI : MonoBehaviour
     [SerializeField] private float attackRange = 10f; // Saldýrý mesafesi
     [SerializeField] private GameObject stingerPrefab; // Ýðne prefab'i
     [SerializeField] private Transform stingerSpawnPoint; // Ýðnenin çýkacaðý nokta
-    [SerializeField] private float stingerSpeed = 20f; // Ýðnenin hýzý
+    [SerializeField] private float stingerSpeed = 50f; // Ýðnenin hýzý
     [SerializeField] private float timeBetweenAttacks = 2f; // Saldýrýlar arasýndaki süre
+    [SerializeField] private float rotationSpeed = 5f; // Arýnýn oyuncuya dönerkenki rotasyon hýzý
 
     private NavMeshAgent agent; // Arýnýn hareketini kontrol eden NavMesh agent
     private int currentPatrolIndex; // Þu anki devriye noktasý
@@ -74,6 +75,12 @@ public class BeeAI : MonoBehaviour
     {
         while (Vector3.Distance(player.position, transform.position) <= attackRange) // Oyuncu saldýrý mesafesindeyken
         {
+            // Arýnýn yönünü oyuncuya doðru döndür
+            Vector3 direction = (player.position - transform.position).normalized;
+            Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
+
+            // Ýðne fýrlatma iþlemi
             GameObject stinger = Instantiate(stingerPrefab, stingerSpawnPoint.position, Quaternion.identity); // Ýðne prefab'ini oluþtur
             Rigidbody rb = stinger.GetComponent<Rigidbody>(); // Ýðne prefab'inin Rigidbody bileþenini al
             if (rb != null) // Eðer Rigidbody varsa
