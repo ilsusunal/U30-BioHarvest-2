@@ -1,17 +1,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlantDisappearHandler : MonoBehaviour
+public class AstraSitMissio : MonoBehaviour
 {
-    // Plant007 nesnesinin referansý
-    public GameObject plant007;
+    // astrasit nesnesinin referansý
+    public GameObject AstraSit;
     // UI Image bileþeninin referansý
     public Image uiImage;
 
     void Update()
     {
-        // Eðer plant007 nesnesi devre dýþý býrakýldýysa
-        if (!plant007.activeSelf)
+        // Eðer astrasit nesnesi açýlýrsa
+        if (AstraSit.activeSelf)
         {
             // UI Image rengini yeþil yap
             uiImage.color = Color.green;
