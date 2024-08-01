@@ -557,13 +557,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 300
+      value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 182
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061551346209247331, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
@@ -1164,9 +1184,8 @@ MonoBehaviour:
     g\xF6revleri tamamlayarak buray\u0131 ya\u015Fanabilir bir hale getirmelisin.\n\nHabitat:
     \xC7\xF6l\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd79567be703ae6489f7acba0c9849dd, type: 2}
-  m_sharedMaterial: {fileID: -4912438669587730556, guid: cd79567be703ae6489f7acba0c9849dd,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1420,13 +1439,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 300
+      value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 182
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061551346209247331, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
@@ -2228,13 +2267,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 300
+      value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 182
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061551346209247331, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
@@ -3379,13 +3438,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 300
+      value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 182
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932648620635657559, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061551346209247331, guid: 5d9602f9426689c4fa1ede9a6f3bed22,
         type: 3}
@@ -10224,9 +10303,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "(Kapatmak i\xE7in 'ESC'ye bas\u0131n.)"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd79567be703ae6489f7acba0c9849dd, type: 2}
-  m_sharedMaterial: {fileID: -4912438669587730556, guid: cd79567be703ae6489f7acba0c9849dd,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
