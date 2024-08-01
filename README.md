@@ -3,12 +3,56 @@
 5pace
 
 ## Takım Üyeleri
-
-- İbrahim Safa Uysal : Product Owner
-- Hilal Korkusuz: Scrum Master
-- Hamza Sıvacı: Team Member/Developer
-- Hasan Demirtaş: Team Member/Developer
-- İlsu Sunal: Team Member/Developer
+<table>
+    <tr>
+      <th></th>
+      <th>Ad Soyad</th>
+      <th>Görev</th>
+      <th>Linkedin</th>
+    </tr>
+    <tr>
+      <td><img src="bootcampFiles/general/squarepics/burak.png" width="50" height="50" /></td>
+      <td>Hilal Korkusuz</td>
+      <td>Scrum Master</td>
+      <td>
+        <a href="https://www.linkedin.com/in/hilal-korkusuz-404039237//" target="_blank" ><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="bootcampFiles/general/squarepics/arda.png" width="50" height="50" /></td>
+      <td>İbrahim Safa Uysal </td>
+      <td>Product Owner</td>
+      <td>
+        <a href="https://www.linkedin.com/in/ibrahim-safa-uysal-250139167/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="bootcampFiles/general/squarepics/hazal.png" width="50" height="50" /></td>
+      <td>Hamza Sıvacı</td>
+      <td>Developer</td>
+      <td>
+        <a href="https://www.linkedin.com/in/hamza-s%C4%B1vac%C4%B1-94a140205/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="bootcampFiles/general/squarepics/merve.png" width="50" height="50" /></td>
+      <td>Hasan Demirtaş/td>
+      <td>Developer</td>
+      <td>
+        <a href="https://www.linkedin.com/in/hasandemirta%C5%9F/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="bootcampFiles/general/squarepics/onur.png" width="50" height="50" /></td>
+      <td>İlsu Sunal</td>
+      <td>Developer</td>
+      <td>
+        <a href="https://www.linkedin.com/in/ilsu-sunal/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+      </td>
+    </tr>
+    <tr>
+  </tr>
+  </table>
 ---
 
 # Ürün İle İlgili Bilgiler
@@ -18,7 +62,7 @@
 Bio Harvest
 
 ## Ürün Açıklaması
-- BioHarvest; macera ve bulmaca oyunudur.
+- BioHarvest; macera, platform ve bulmaca oyunudur.
 
 ## Ürün Hikayesi
 - Küresel ısınmanın etkisiyle Dünya, bir çöl gezegenine dönmüş ve yaşanamaz hale gelmiştir. İnsanlar; gezegeni tamamen terk etmeden önce, Dünya'yı eski haline döndürme umuduyla birçok robotu programlar ve geride bırakırlar. Yıllar sonra, robotların çoğu bozulmuş ve görevlerini tamamlayamamıştır. Fakat umutsuzluğa yer yok, çünkü hayatta kalan tek robot olan Astra var!
@@ -39,13 +83,17 @@ Bölüm 6: Bedel Zamanı: Astra, Dünya'daki görevini tamamlasa da diğer gezeg
   -	Toplanan kaynaklarını envanterde görünmesi ve gerektiğinde kullanılması
   -	Mini map sayesinde haritadaki konumunuzu görme
   -	Third person bakış açısı
+  -	Yanımızdaki arkadaşımızın NPC'lere saldırması
+  -	Checkpoint noktaları
+  -	Görev ve başarımlar
+  -	Gezegen seçme sahnesi
   
 - Benzersiz özellikler:
   -	Farklı gezegenleri keşfedin.
   -	Kendi gezegeni için farklı gezegenlerden öge toplayıp o gezegeni yok edin. Böylece oyuncular etik bir dilemma ile karşılaşacaklar.
 
 ## Hedef Kitle
-- BioHarvest; keşfe meraklı, zorlu bulmacaları çözmeyi seven, 7 yaş üstü, PC oyuncusu olan herkese hitap ediyor!
+- BioHarvest; keşfe meraklı, zorlu bulmacaları çözmeyi seven, 10 yaş üstü, PC oyuncusu olan herkese hitap ediyor!
 
   - Profil 1 [Ayşe]: Hikaye odaklı oyunları seven, gizemleri çözmeyi ve sürükleyici anlatımları takdir eden oyuncu.
   - Profil 3 [Mehmet]: Zorlu bulmacaları çözmekten zevk alan, mantık ve strateji gerektiren oyunları seven 18 yaşında oyuncu.
