@@ -11,11 +11,12 @@
       <th>Linkedin</th>
     </tr>
     <tr>
-      <td><img src="bootcampFiles/general/squarepics/burak.png" width="50" height="50" /></td>
+      <td><img src="Foto%C4%9Fraflar/hilal.jpeg" width="50" height="50" /></td>
       <td>Hilal Korkusuz</td>
       <td>Scrum Master</td>
       <td>
-        <a href="https://www.linkedin.com/in/hilal-korkusuz-404039237//" target="_blank" ><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/HilalKorkusuz" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
+        <a href="https://www.linkedin.com/in/hilal-korkusuz-404039237//" target="_blank" ><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
       </td>
     </tr>
     <tr>
@@ -23,7 +24,8 @@
       <td>İbrahim Safa Uysal </td>
       <td>Product Owner</td>
       <td>
-        <a href="https://www.linkedin.com/in/ibrahim-safa-uysal-250139167/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/isulduristaken" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
+        <a href="https://www.linkedin.com/in/ibrahim-safa-uysal-250139167/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
       </td>
     </tr>
     <tr>
@@ -31,15 +33,17 @@
       <td>Hamza Sıvacı</td>
       <td>Developer</td>
       <td>
-        <a href="https://www.linkedin.com/in/hamza-s%C4%B1vac%C4%B1-94a140205/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/hmzsvc" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
+        <a href="https://www.linkedin.com/in/hamza-s%C4%B1vac%C4%B1-94a140205/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
       </td>
     </tr>
     <tr>
       <td><img src="bootcampFiles/general/squarepics/merve.png" width="50" height="50" /></td>
-      <td>Hasan Demirtaş/td>
+      <td>Hasan Demirtaş</td>
       <td>Developer</td>
       <td>
-        <a href="https://www.linkedin.com/in/hasandemirta%C5%9F/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/Tamu35" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
+        <a href="https://www.linkedin.com/in/hasandemirta%C5%9F/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
       </td>
     </tr>
     <tr>
@@ -47,10 +51,10 @@
       <td>İlsu Sunal</td>
       <td>Developer</td>
       <td>
-        <a href="https://www.linkedin.com/in/ilsu-sunal/" target="_blank"><img src="bootcampFiles/general/social/linkedin.png" width="20" height="20" /></a>
+        <a href="https://github.com/ilsusunal" target="_blank"><img src="bootcampFiles/general/social/github.png" width="20" height="20"/></a>
+        <a href="https://www.linkedin.com/in/ilsu-sunal/" target="_blank"><img src="Foto%C4%9Fraflar/linkedin.png" width="20" height="20" /></a>
       </td>
     </tr>
-    <tr>
   </tr>
   </table>
 ---
