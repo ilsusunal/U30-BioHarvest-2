@@ -25954,6 +25954,7 @@ MonoBehaviour:
   playerTag: Player
   panel: {fileID: 870942016}
   canvasF: {fileID: 291408172}
+  episodeName: 0
 --- !u!1001 &1150752701
 PrefabInstance:
   m_ObjectHideFlags: 0

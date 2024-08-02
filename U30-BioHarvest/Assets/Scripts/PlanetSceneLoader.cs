@@ -6,6 +6,7 @@ public class PlanetSceneLoader : MonoBehaviour
     private void Awake()
     {
         Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
     // Bu metodu butonun OnClick() eventi ile çaðýrabilirsiniz
     public void goTutorialScene()

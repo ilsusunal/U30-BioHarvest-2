@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1617e281e08875e49b7d483fb5e54e18, type: 3}
   m_Name: Seed
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 21300000, guid: d5c9a6af654794d45a67d003a49b8631, type: 3}
+  itemSprite: {fileID: 21300000, guid: d6e8364d2401cde4aa503f7a0641734f, type: 3}
   itemName: 0
-  goalCount: 3
+  goalCount: 1

@@ -54,7 +54,6 @@ public class RocketControl : MonoBehaviour
             if (InventoryManager.Instance.itemToUse.itemName == ItemSO.ItemNames.Plant007)
             {
                 InventoryManager.Instance.UseItem(InventoryManager.Instance.itemToUse);
-                QBee.SetActive(true);
                 sceneChanger.OpenCanvas();
             }
         }
