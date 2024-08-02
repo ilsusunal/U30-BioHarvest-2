@@ -82,7 +82,7 @@ public class SettingsPanelManager : MonoBehaviour
 
     private void ExitToLevelSelection()
     {
-        SceneManager.LoadScene("SpaceMissionMenu");
+        SceneManager.LoadScene("Start Menu");
     }
 
     private void SetCursorVisibility(bool visible)
