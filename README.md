@@ -226,11 +226,11 @@ Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
   <details>
     <summary><h1>Sprint 3</h1></summary>
       
-- **Sprint Notları**: Üçüncü ve son sprintte 
+- **Sprint Notları**: Üçüncü sprintte projemizi bitirmeyi ve karşılaştığımız bugları tespit edip düzeltmeyi hedefledik. Ve bu hedefimizi ulaştık.
 
-- **Tamamlanması tahmin edilen puan**: 120
+- **Tamamlanması tahmin edilen puan**: 134
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 390 puanlık backlog bulunmaktadır. 390 puan, 3 sprint'e bölündüğünde ilk sprint 130 puanlık görevin bitirilmesine karar verildi. 
+- **Puan tamamlama mantığı**: İlk planımıza göre bu sprinttin hedefi 120 puan idi. Fakat 2. sprintte tamamlayamadığımız görevler de göz önüne alındığında yeni puan hedefimizi 134 olarak belirlendi
 
 <details>
   <summary><h3>Sprint Board Update</h3></summary>
@@ -239,7 +239,7 @@ Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 ![sprint3 2](https://github.com/user-attachments/assets/8168e5d3-64dc-44f3-bf37-5a05f73942a9)
   </details>
 
-- **Daily Scrum**: Daily Scrum toplantılarının WhatsApp ve Discord üzerinden yapılmasına karar verildi. Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
+- **Daily Scrum**: Daily Scrum toplantısı görsellerinin bulunduğu drive linki:
 https://drive.google.com/drive/folders/1JDA5yhXihcewb2-2VwZ3QEb1UzlKg1Mk
 
 - **Haftalık Toplantıdan Görsel**:
