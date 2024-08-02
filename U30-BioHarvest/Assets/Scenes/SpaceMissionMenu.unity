@@ -882,7 +882,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gezegene Git
+  m_text: Go to Planet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 422e48fe3d40ee944a173101f2f20aac, type: 2}
   m_sharedMaterial: {fileID: 5636880215170960144, guid: 422e48fe3d40ee944a173101f2f20aac,
@@ -1179,10 +1179,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu D\xFCnya, k\xFCresel \u0131s\u0131nman\u0131n etkisiyle bir \xE7\xF6l
-    gezegenine d\xF6nm\xFC\u015F... Buras\u0131 senin evin. Di\u011Fer gezegenlerdeki
-    g\xF6revleri tamamlayarak buray\u0131 ya\u015Fanabilir bir hale getirmelisin.\n\nHabitat:
-    \xC7\xF6l\n"
+  m_text: 'This Earth has become a desert planet due to global warming. This is your
+    home. You must make it habitable by completing missions on other planets.
+
+
+    Habitat
+    : Desert'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1596,52 +1598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8444b4f7eb992524992722312ec303b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &614602172
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 614602174}
-  - component: {fileID: 614602173}
-  m_Layer: 0
-  m_Name: EpisodeSelectionAPI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &614602173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614602172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 297b753d8ae01e44f8a3da9625879985, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  episode2Button: {fileID: 2102238801}
-  episode3Button: {fileID: 1426639992}
---- !u!4 &614602174
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614602172}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1066.6603, y: 606.71106, z: 374.6275}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &665904937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,7 +1655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(Kapatmak i\xE7in 'ESC'ye bas\u0131n.)"
+  m_text: (Press 'ESC' to switch off.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3223,9 +3179,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu D\xFCnya, EARTH 6.0'daki do\u011Fal hayat\u0131 yeniden d\xFCzenleyecek
-    bir canl\u0131ya sahip. Sald\u0131r\u0131lara kar\u015F\u0131 tetikte ol!\n\nHabitat:
-    Da\u011F\n"
+  m_text: 'This Earth has a creature that will reorganise the natural world in EARTH
+    6.0. Be on the lookout for attacks!
+
+
+    Habitat : Mountain'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3696,7 +3654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(Kapatmak i\xE7in 'ESC'ye bas\u0131n.)"
+  m_text: (Press 'ESC' to switch off.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd79567be703ae6489f7acba0c9849dd, type: 2}
   m_sharedMaterial: {fileID: -4912438669587730556, guid: cd79567be703ae6489f7acba0c9849dd,
@@ -4131,13 +4089,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu D\xFCnya, EARTH 6.0'\u0131 yeniden ye\u015Fertebilecek tohum kaynaklar\u0131n\u0131
-    bar\u0131nd\u0131r\u0131yor olabilir. Ancak burada ya\u015Fam formlar\u0131 alg\u0131l\u0131yorsun...
-    Farkl\u0131 uzay ya\u015Fam formlar\u0131na dikkat et!\n\nHabitat: Orman\n"
+  m_text: 'This Earth may harbour seed sources that could regenerate EARTH 6.0. But
+    you are detecting life forms here. Watch out for different space life forms!
+
+
+    Habitat
+    : Forest'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd79567be703ae6489f7acba0c9849dd, type: 2}
-  m_sharedMaterial: {fileID: -4912438669587730556, guid: cd79567be703ae6489f7acba0c9849dd,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4414,7 +4374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gezegene Git
+  m_text: Go to Planet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 422e48fe3d40ee944a173101f2f20aac, type: 2}
   m_sharedMaterial: {fileID: 5636880215170960144, guid: 422e48fe3d40ee944a173101f2f20aac,
@@ -4644,11 +4604,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(Kapatmak i\xE7in 'ESC'ye bas\u0131n.)"
+  m_text: (Press 'ESC' to switch off.)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cd79567be703ae6489f7acba0c9849dd, type: 2}
-  m_sharedMaterial: {fileID: -4912438669587730556, guid: cd79567be703ae6489f7acba0c9849dd,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9778,7 +9737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gezegene Git
+  m_text: Go to Planet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 422e48fe3d40ee944a173101f2f20aac, type: 2}
   m_sharedMaterial: {fileID: 5636880215170960144, guid: 422e48fe3d40ee944a173101f2f20aac,
@@ -9937,10 +9896,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu D\xFCnya, gezegenine tekrarda su getirebilmek i\xE7in gerekli kristalleri
-    bar\u0131nd\u0131r\u0131yor olabilir. G\xF6revleri tamamlayarak bulmacalar\u0131
-    \xE7\xF6z ve farkl\u0131 uzay ya\u015Fam formlar\u0131na dikkat et!\n\nHabitat:
-    Okyanus"
+  m_text: 'This Earth may harbour the crystals needed to bring water back to your
+    planet. Complete missions to solve puzzles and watch out for different space
+    life forms!
+
+
+    Habitat : Ocean'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd79567be703ae6489f7acba0c9849dd, type: 2}
   m_sharedMaterial: {fileID: -4912438669587730556, guid: cd79567be703ae6489f7acba0c9849dd,
@@ -10170,7 +10131,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gezegene Git
+  m_text: Go to Planet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 422e48fe3d40ee944a173101f2f20aac, type: 2}
   m_sharedMaterial: {fileID: 5636880215170960144, guid: 422e48fe3d40ee944a173101f2f20aac,
@@ -10345,7 +10306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(Kapatmak i\xE7in 'ESC'ye bas\u0131n.)"
+  m_text: (Press 'ESC' to switch off.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10994,4 +10955,3 @@ SceneRoots:
   - {fileID: 201582451}
   - {fileID: 1425996891}
   - {fileID: 764997447}
-  - {fileID: 614602174}
