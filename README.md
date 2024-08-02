@@ -266,6 +266,6 @@ Sprint Review katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıv
 - **Sprint Retrospective:** Alınan kararlar
   - Astranın saldırma animasyonları bizi zorlayabileceği için yanına bir robot daha yapılmasına karar verildi.
   - İkinci sprintten kalan görevler bu sprintte tamamlandı.
-  - Bu sprintte hedeflenen 120 puana ulaşıldı.
+  - Bu sprintte hedeflenen 134 puana ulaşıldı.
 Retrospective katılımcıları: İbrahim Safa Uysal, Hilal Korkusuz, Hamza Sıvacı, Hasan Demirtaş, İlsu Sunal
 ---
