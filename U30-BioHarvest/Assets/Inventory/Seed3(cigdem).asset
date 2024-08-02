@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: d103e62eade414542b87da15a05eecf4, type: 3}
   itemName: 6
-  goalCount: 2
+  goalCount: 1

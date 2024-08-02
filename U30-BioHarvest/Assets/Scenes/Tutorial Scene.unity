@@ -14044,6 +14044,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5887317071703202531, guid: ac086b593b4677f49a1a6c6b1dafdceb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6842622543966066329, guid: ac086b593b4677f49a1a6c6b1dafdceb,
         type: 3}
       propertyPath: m_Sprite
@@ -26420,7 +26425,7 @@ PrefabInstance:
     - target: {fileID: 3227502684664426725, guid: c5dafcbf83400344086aef9f9f53c5f6,
         type: 3}
       propertyPath: framingOffset.y
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3227502684664426725, guid: c5dafcbf83400344086aef9f9f53c5f6,
         type: 3}
