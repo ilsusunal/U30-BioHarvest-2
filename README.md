@@ -129,6 +129,8 @@ https://github.com/users/ilsusunal/projects/2/views/1
 Ayrıca proje hakkında diğer detaylar ve planlamalar için kullanılan link:
 https://app.milanote.com/1Sk0sa1J9xg002/takm-30-bootcamp?p=xnCX4jrYYGU
 
+🎮 Oynamak için indirebilirsiniz!
+https://drive.google.com/drive/folders/1aHKn92mcpJL9DSD1APyfuF9eRrwOkwK9?usp=sharing
 ---
 
 
